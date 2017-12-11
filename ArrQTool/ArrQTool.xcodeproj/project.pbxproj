@@ -45,6 +45,10 @@
 		75701ABA1FDED7AC00374E9A /* DDTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701AB21FDED7AC00374E9A /* DDTableViewHeader.m */; };
 		75701ABB1FDED7AC00374E9A /* MoreTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701AB41FDED7AC00374E9A /* MoreTableViewCell.m */; };
 		75701ABD1FDED7C600374E9A /* show.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75701ABC1FDED7C600374E9A /* show.xcassets */; };
+		75701B541FDEDC3700374E9A /* DKSHTMLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701B4E1FDEDC3700374E9A /* DKSHTMLController.m */; };
+		75701B551FDEDC3700374E9A /* DKSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701B501FDEDC3700374E9A /* DKSWebViewController.m */; };
+		75701B561FDEDC3700374E9A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701B521FDEDC3700374E9A /* RootViewController.m */; };
+		75701B571FDEDC3700374E9A /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75701B531FDEDC3700374E9A /* RootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +138,13 @@
 		75701AB31FDED7AC00374E9A /* MoreTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreTableViewCell.h; sourceTree = "<group>"; };
 		75701AB41FDED7AC00374E9A /* MoreTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreTableViewCell.m; sourceTree = "<group>"; };
 		75701ABC1FDED7C600374E9A /* show.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = show.xcassets; sourceTree = "<group>"; };
+		75701B4D1FDEDC3700374E9A /* DKSHTMLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSHTMLController.h; sourceTree = "<group>"; };
+		75701B4E1FDEDC3700374E9A /* DKSHTMLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSHTMLController.m; sourceTree = "<group>"; };
+		75701B4F1FDEDC3700374E9A /* DKSWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSWebViewController.h; sourceTree = "<group>"; };
+		75701B501FDEDC3700374E9A /* DKSWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSWebViewController.m; sourceTree = "<group>"; };
+		75701B511FDEDC3700374E9A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		75701B521FDEDC3700374E9A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		75701B531FDEDC3700374E9A /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		FB9AC0A39F70795457F83C18 /* libPods-ArrQTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArrQTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -240,6 +251,7 @@
 		75701A2F1FDECAB700374E9A /* Tools(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				75701B4B1FDEDC0300374E9A /* 加载HTML */,
 				75701A7A1FDED4BA00374E9A /* 滚动条title */,
 				75701A641FDED21600374E9A /* 监听+通知 */,
 				75701A581FDED07B00374E9A /* 富文本 */,
@@ -431,6 +443,28 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		75701B4B1FDEDC0300374E9A /* 加载HTML */ = {
+			isa = PBXGroup;
+			children = (
+				75701B4C1FDEDC3700374E9A /* webHtml-1 */,
+			);
+			path = "加载HTML";
+			sourceTree = "<group>";
+		};
+		75701B4C1FDEDC3700374E9A /* webHtml-1 */ = {
+			isa = PBXGroup;
+			children = (
+				75701B4D1FDEDC3700374E9A /* DKSHTMLController.h */,
+				75701B4E1FDEDC3700374E9A /* DKSHTMLController.m */,
+				75701B4F1FDEDC3700374E9A /* DKSWebViewController.h */,
+				75701B501FDEDC3700374E9A /* DKSWebViewController.m */,
+				75701B511FDEDC3700374E9A /* RootViewController.h */,
+				75701B521FDEDC3700374E9A /* RootViewController.m */,
+				75701B531FDEDC3700374E9A /* RootViewController.xib */,
+			);
+			path = "webHtml-1";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -548,6 +582,7 @@
 				75701A2E1FDECA6E00374E9A /* 无线轮播图片资源.xcassets in Resources */,
 				75701A571FDECEDA00374E9A /* 选中图标.xcassets in Resources */,
 				75701A081FDEC81C00374E9A /* LaunchScreen.storyboard in Resources */,
+				75701B571FDEDC3700374E9A /* RootViewController.xib in Resources */,
 				75701A051FDEC81C00374E9A /* Assets.xcassets in Resources */,
 				75701A031FDEC81C00374E9A /* Main.storyboard in Resources */,
 			);
@@ -642,6 +677,7 @@
 				75701AB71FDED7AC00374E9A /* DDCellModel.m in Sources */,
 				75701A501FDECE4300374E9A /* SelModel.m in Sources */,
 				75701A8B1FDED4F800374E9A /* showViewController.m in Sources */,
+				75701B541FDEDC3700374E9A /* DKSHTMLController.m in Sources */,
 				75701AB81FDED7AC00374E9A /* DDSectionModel.m in Sources */,
 				75701A771FDED32200374E9A /* jiantingViewController.m in Sources */,
 				75701A5D1FDED07B00374E9A /* ManageColorAttributed.m in Sources */,
@@ -650,10 +686,12 @@
 				75701A331FDECAB700374E9A /* PicturePlayer.m in Sources */,
 				75701A871FDED4BB00374E9A /* TitleScrollView.m in Sources */,
 				75701A511FDECE4300374E9A /* subSelModel.m in Sources */,
+				75701B561FDEDC3700374E9A /* RootViewController.m in Sources */,
 				75701A861FDED4BB00374E9A /* UIView+SGExtension.m in Sources */,
 				75701A851FDED4BB00374E9A /* SGTopScrollMenu.m in Sources */,
 				75701A551FDECE5B00374E9A /* cellzhankaiViewController.m in Sources */,
 				75701A611FDED10D00374E9A /* zitiViewController.m in Sources */,
+				75701B551FDEDC3700374E9A /* DKSWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
