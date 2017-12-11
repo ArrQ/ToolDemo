@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F9BBC9EB7965259A418B311 /* libPods-ArrQTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9AC0A39F70795457F83C18 /* libPods-ArrQTool.a */; };
+		757019FD1FDEC81C00374E9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 757019FC1FDEC81C00374E9A /* AppDelegate.m */; };
+		75701A001FDEC81C00374E9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757019FF1FDEC81C00374E9A /* ViewController.m */; };
+		75701A031FDEC81C00374E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75701A011FDEC81C00374E9A /* Main.storyboard */; };
+		75701A051FDEC81C00374E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75701A041FDEC81C00374E9A /* Assets.xcassets */; };
+		75701A081FDEC81C00374E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75701A061FDEC81C00374E9A /* LaunchScreen.storyboard */; };
+		75701A0B1FDEC81C00374E9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701A0A1FDEC81C00374E9A /* main.m */; };
+		75701A151FDEC81D00374E9A /* ArrQToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701A141FDEC81D00374E9A /* ArrQToolTests.m */; };
+		75701A201FDEC81D00374E9A /* ArrQToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701A1F1FDEC81D00374E9A /* ArrQToolUITests.m */; };
+		75701A2E1FDECA6E00374E9A /* 无线轮播图片资源.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75701A2D1FDECA6E00374E9A /* 无线轮播图片资源.xcassets */; };
+		75701A331FDECAB700374E9A /* PicturePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701A321FDECAB700374E9A /* PicturePlayer.m */; };
+		75701A371FDECAFD00374E9A /* wuxialunboViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701A361FDECAFD00374E9A /* wuxialunboViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75701A111FDEC81D00374E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 757019F01FDEC81C00374E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757019F71FDEC81C00374E9A;
+			remoteInfo = ArrQTool;
+		};
+		75701A1C1FDEC81D00374E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 757019F01FDEC81C00374E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 757019F71FDEC81C00374E9A;
+			remoteInfo = ArrQTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C97146B548A38A2C03168FD /* Pods-ArrQTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArrQTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArrQTool/Pods-ArrQTool.release.xcconfig"; sourceTree = "<group>"; };
+		41F0E1747560B23F570F88BD /* Pods-ArrQTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArrQTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArrQTool/Pods-ArrQTool.debug.xcconfig"; sourceTree = "<group>"; };
+		757019F81FDEC81C00374E9A /* ArrQTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArrQTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		757019FB1FDEC81C00374E9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		757019FC1FDEC81C00374E9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		757019FE1FDEC81C00374E9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		757019FF1FDEC81C00374E9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75701A021FDEC81C00374E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75701A041FDEC81C00374E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75701A071FDEC81C00374E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75701A091FDEC81C00374E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75701A0A1FDEC81C00374E9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75701A101FDEC81D00374E9A /* ArrQToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrQToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75701A141FDEC81D00374E9A /* ArrQToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrQToolTests.m; sourceTree = "<group>"; };
+		75701A161FDEC81D00374E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75701A1B1FDEC81D00374E9A /* ArrQToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrQToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75701A1F1FDEC81D00374E9A /* ArrQToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrQToolUITests.m; sourceTree = "<group>"; };
+		75701A211FDEC81D00374E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75701A2D1FDECA6E00374E9A /* 无线轮播图片资源.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "无线轮播图片资源.xcassets"; sourceTree = "<group>"; };
+		75701A311FDECAB700374E9A /* PicturePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicturePlayer.h; sourceTree = "<group>"; };
+		75701A321FDECAB700374E9A /* PicturePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicturePlayer.m; sourceTree = "<group>"; };
+		75701A351FDECAFD00374E9A /* wuxialunboViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wuxialunboViewController.h; sourceTree = "<group>"; };
+		75701A361FDECAFD00374E9A /* wuxialunboViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wuxialunboViewController.m; sourceTree = "<group>"; };
+		FB9AC0A39F70795457F83C18 /* libPods-ArrQTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArrQTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		757019F51FDEC81C00374E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9BBC9EB7965259A418B311 /* libPods-ArrQTool.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75701A0D1FDEC81D00374E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75701A181FDEC81D00374E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4308479F130DF58A4D3A8CC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41F0E1747560B23F570F88BD /* Pods-ArrQTool.debug.xcconfig */,
+				3C97146B548A38A2C03168FD /* Pods-ArrQTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		70C5AF690E17AC024CC4811B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB9AC0A39F70795457F83C18 /* libPods-ArrQTool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		757019EF1FDEC81C00374E9A = {
+			isa = PBXGroup;
+			children = (
+				757019FA1FDEC81C00374E9A /* ArrQTool */,
+				75701A131FDEC81D00374E9A /* ArrQToolTests */,
+				75701A1E1FDEC81D00374E9A /* ArrQToolUITests */,
+				757019F91FDEC81C00374E9A /* Products */,
+				4308479F130DF58A4D3A8CC0 /* Pods */,
+				70C5AF690E17AC024CC4811B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		757019F91FDEC81C00374E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				757019F81FDEC81C00374E9A /* ArrQTool.app */,
+				75701A101FDEC81D00374E9A /* ArrQToolTests.xctest */,
+				75701A1B1FDEC81D00374E9A /* ArrQToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		757019FA1FDEC81C00374E9A /* ArrQTool */ = {
+			isa = PBXGroup;
+			children = (
+				757019FB1FDEC81C00374E9A /* AppDelegate.h */,
+				757019FC1FDEC81C00374E9A /* AppDelegate.m */,
+				757019FE1FDEC81C00374E9A /* ViewController.h */,
+				757019FF1FDEC81C00374E9A /* ViewController.m */,
+				75701A2F1FDECAB700374E9A /* Tools(工具) */,
+				75701A011FDEC81C00374E9A /* Main.storyboard */,
+				75701A041FDEC81C00374E9A /* Assets.xcassets */,
+				75701A2D1FDECA6E00374E9A /* 无线轮播图片资源.xcassets */,
+				75701A061FDEC81C00374E9A /* LaunchScreen.storyboard */,
+				75701A091FDEC81C00374E9A /* Info.plist */,
+				75701A0A1FDEC81C00374E9A /* main.m */,
+			);
+			path = ArrQTool;
+			sourceTree = "<group>";
+		};
+		75701A131FDEC81D00374E9A /* ArrQToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				75701A141FDEC81D00374E9A /* ArrQToolTests.m */,
+				75701A161FDEC81D00374E9A /* Info.plist */,
+			);
+			path = ArrQToolTests;
+			sourceTree = "<group>";
+		};
+		75701A1E1FDEC81D00374E9A /* ArrQToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75701A1F1FDEC81D00374E9A /* ArrQToolUITests.m */,
+				75701A211FDEC81D00374E9A /* Info.plist */,
+			);
+			path = ArrQToolUITests;
+			sourceTree = "<group>";
+		};
+		75701A2F1FDECAB700374E9A /* Tools(工具) */ = {
+			isa = PBXGroup;
+			children = (
+				75701A301FDECAB700374E9A /* 无线轮播器 */,
+			);
+			path = "Tools(工具)";
+			sourceTree = "<group>";
+		};
+		75701A301FDECAB700374E9A /* 无线轮播器 */ = {
+			isa = PBXGroup;
+			children = (
+				75701A341FDECAE000374E9A /* showDemo */,
+				75701A311FDECAB700374E9A /* PicturePlayer.h */,
+				75701A321FDECAB700374E9A /* PicturePlayer.m */,
+			);
+			path = "无线轮播器";
+			sourceTree = "<group>";
+		};
+		75701A341FDECAE000374E9A /* showDemo */ = {
+			isa = PBXGroup;
+			children = (
+				75701A351FDECAFD00374E9A /* wuxialunboViewController.h */,
+				75701A361FDECAFD00374E9A /* wuxialunboViewController.m */,
+			);
+			path = showDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		757019F71FDEC81C00374E9A /* ArrQTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75701A241FDEC81D00374E9A /* Build configuration list for PBXNativeTarget "ArrQTool" */;
+			buildPhases = (
+				889ABB3D46F28E99D8E487C9 /* [CP] Check Pods Manifest.lock */,
+				757019F41FDEC81C00374E9A /* Sources */,
+				757019F51FDEC81C00374E9A /* Frameworks */,
+				757019F61FDEC81C00374E9A /* Resources */,
+				BB9944D720C66F8D360578DA /* [CP] Embed Pods Frameworks */,
+				5F85D354AC2918321C2D5B56 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArrQTool;
+			productName = ArrQTool;
+			productReference = 757019F81FDEC81C00374E9A /* ArrQTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75701A0F1FDEC81D00374E9A /* ArrQToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75701A271FDEC81D00374E9A /* Build configuration list for PBXNativeTarget "ArrQToolTests" */;
+			buildPhases = (
+				75701A0C1FDEC81D00374E9A /* Sources */,
+				75701A0D1FDEC81D00374E9A /* Frameworks */,
+				75701A0E1FDEC81D00374E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75701A121FDEC81D00374E9A /* PBXTargetDependency */,
+			);
+			name = ArrQToolTests;
+			productName = ArrQToolTests;
+			productReference = 75701A101FDEC81D00374E9A /* ArrQToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75701A1A1FDEC81D00374E9A /* ArrQToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75701A2A1FDEC81D00374E9A /* Build configuration list for PBXNativeTarget "ArrQToolUITests" */;
+			buildPhases = (
+				75701A171FDEC81D00374E9A /* Sources */,
+				75701A181FDEC81D00374E9A /* Frameworks */,
+				75701A191FDEC81D00374E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75701A1D1FDEC81D00374E9A /* PBXTargetDependency */,
+			);
+			name = ArrQToolUITests;
+			productName = ArrQToolUITests;
+			productReference = 75701A1B1FDEC81D00374E9A /* ArrQToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		757019F01FDEC81C00374E9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = ArrQ;
+				TargetAttributes = {
+					757019F71FDEC81C00374E9A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					75701A0F1FDEC81D00374E9A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 757019F71FDEC81C00374E9A;
+					};
+					75701A1A1FDEC81D00374E9A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 757019F71FDEC81C00374E9A;
+					};
+				};
+			};
+			buildConfigurationList = 757019F31FDEC81C00374E9A /* Build configuration list for PBXProject "ArrQTool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 757019EF1FDEC81C00374E9A;
+			productRefGroup = 757019F91FDEC81C00374E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				757019F71FDEC81C00374E9A /* ArrQTool */,
+				75701A0F1FDEC81D00374E9A /* ArrQToolTests */,
+				75701A1A1FDEC81D00374E9A /* ArrQToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		757019F61FDEC81C00374E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75701A2E1FDECA6E00374E9A /* 无线轮播图片资源.xcassets in Resources */,
+				75701A081FDEC81C00374E9A /* LaunchScreen.storyboard in Resources */,
+				75701A051FDEC81C00374E9A /* Assets.xcassets in Resources */,
+				75701A031FDEC81C00374E9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75701A0E1FDEC81D00374E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75701A191FDEC81D00374E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F85D354AC2918321C2D5B56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ArrQTool/Pods-ArrQTool-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArrQTool/Pods-ArrQTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		889ABB3D46F28E99D8E487C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArrQTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB9944D720C66F8D360578DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArrQTool/Pods-ArrQTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		757019F41FDEC81C00374E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75701A371FDECAFD00374E9A /* wuxialunboViewController.m in Sources */,
+				75701A001FDEC81C00374E9A /* ViewController.m in Sources */,
+				75701A0B1FDEC81C00374E9A /* main.m in Sources */,
+				757019FD1FDEC81C00374E9A /* AppDelegate.m in Sources */,
+				75701A331FDECAB700374E9A /* PicturePlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75701A0C1FDEC81D00374E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75701A151FDEC81D00374E9A /* ArrQToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75701A171FDEC81D00374E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75701A201FDEC81D00374E9A /* ArrQToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75701A121FDEC81D00374E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 757019F71FDEC81C00374E9A /* ArrQTool */;
+			targetProxy = 75701A111FDEC81D00374E9A /* PBXContainerItemProxy */;
+		};
+		75701A1D1FDEC81D00374E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 757019F71FDEC81C00374E9A /* ArrQTool */;
+			targetProxy = 75701A1C1FDEC81D00374E9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75701A011FDEC81C00374E9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75701A021FDEC81C00374E9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75701A061FDEC81C00374E9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75701A071FDEC81C00374E9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75701A221FDEC81D00374E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75701A231FDEC81D00374E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75701A251FDEC81D00374E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F0E1747560B23F570F88BD /* Pods-ArrQTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArrQTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArrQ.ArrQTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		75701A261FDEC81D00374E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C97146B548A38A2C03168FD /* Pods-ArrQTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArrQTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArrQ.ArrQTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		75701A281FDEC81D00374E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArrQToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArrQ.ArrQToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArrQTool.app/ArrQTool";
+			};
+			name = Debug;
+		};
+		75701A291FDEC81D00374E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArrQToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArrQ.ArrQToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArrQTool.app/ArrQTool";
+			};
+			name = Release;
+		};
+		75701A2B1FDEC81D00374E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArrQToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArrQ.ArrQToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArrQTool;
+			};
+			name = Debug;
+		};
+		75701A2C1FDEC81D00374E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArrQToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ArrQ.ArrQToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArrQTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		757019F31FDEC81C00374E9A /* Build configuration list for PBXProject "ArrQTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75701A221FDEC81D00374E9A /* Debug */,
+				75701A231FDEC81D00374E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75701A241FDEC81D00374E9A /* Build configuration list for PBXNativeTarget "ArrQTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75701A251FDEC81D00374E9A /* Debug */,
+				75701A261FDEC81D00374E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75701A271FDEC81D00374E9A /* Build configuration list for PBXNativeTarget "ArrQToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75701A281FDEC81D00374E9A /* Debug */,
+				75701A291FDEC81D00374E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75701A2A1FDEC81D00374E9A /* Build configuration list for PBXNativeTarget "ArrQToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75701A2B1FDEC81D00374E9A /* Debug */,
+				75701A2C1FDEC81D00374E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 757019F01FDEC81C00374E9A /* Project object */;
+}
