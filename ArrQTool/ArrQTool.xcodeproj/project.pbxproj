@@ -49,6 +49,17 @@
 		75701B551FDEDC3700374E9A /* DKSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701B501FDEDC3700374E9A /* DKSWebViewController.m */; };
 		75701B561FDEDC3700374E9A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701B521FDEDC3700374E9A /* RootViewController.m */; };
 		75701B571FDEDC3700374E9A /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75701B531FDEDC3700374E9A /* RootViewController.xib */; };
+		75701B6E1FDEDD7500374E9A /* JLBaseChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701B5B1FDEDD7500374E9A /* JLBaseChart.m */; };
+		75701B6F1FDEDD7500374E9A /* JLBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701B5D1FDEDD7500374E9A /* JLBubble.m */; };
+		75701B701FDEDD7500374E9A /* JLChartPointItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701B611FDEDD7500374E9A /* JLChartPointItem.m */; };
+		75701B711FDEDD7500374E9A /* JLChartPointSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701B631FDEDD7500374E9A /* JLChartPointSet.m */; };
+		75701B721FDEDD7500374E9A /* JLLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701B651FDEDD7500374E9A /* JLLineChart.m */; };
+		75701B731FDEDD7500374E9A /* JLLineChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701B671FDEDD7500374E9A /* JLLineChartData.m */; };
+		75701B741FDEDD7500374E9A /* JLPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701B691FDEDD7500374E9A /* JLPieChart.m */; };
+		75701B751FDEDD7500374E9A /* JLPieChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701B6B1FDEDD7500374E9A /* JLPieChartData.m */; };
+		75701B761FDEDD7500374E9A /* JLSingleLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701B6D1FDEDD7500374E9A /* JLSingleLineChart.m */; };
+		75701B791FDEDD8700374E9A /* showtubiaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701B781FDEDD8700374E9A /* showtubiaoViewController.m */; };
+		75701B7B1FDEDDC700374E9A /* tubiao.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75701B7A1FDEDDC700374E9A /* tubiao.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +156,29 @@
 		75701B511FDEDC3700374E9A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		75701B521FDEDC3700374E9A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		75701B531FDEDC3700374E9A /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		75701B5A1FDEDD7500374E9A /* JLBaseChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLBaseChart.h; sourceTree = "<group>"; };
+		75701B5B1FDEDD7500374E9A /* JLBaseChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLBaseChart.m; sourceTree = "<group>"; };
+		75701B5C1FDEDD7500374E9A /* JLBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLBubble.h; sourceTree = "<group>"; };
+		75701B5D1FDEDD7500374E9A /* JLBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLBubble.m; sourceTree = "<group>"; };
+		75701B5E1FDEDD7500374E9A /* JLChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLChart.h; sourceTree = "<group>"; };
+		75701B5F1FDEDD7500374E9A /* JLChartDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLChartDelegate.h; sourceTree = "<group>"; };
+		75701B601FDEDD7500374E9A /* JLChartPointItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLChartPointItem.h; sourceTree = "<group>"; };
+		75701B611FDEDD7500374E9A /* JLChartPointItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLChartPointItem.m; sourceTree = "<group>"; };
+		75701B621FDEDD7500374E9A /* JLChartPointSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLChartPointSet.h; sourceTree = "<group>"; };
+		75701B631FDEDD7500374E9A /* JLChartPointSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLChartPointSet.m; sourceTree = "<group>"; };
+		75701B641FDEDD7500374E9A /* JLLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLLineChart.h; sourceTree = "<group>"; };
+		75701B651FDEDD7500374E9A /* JLLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLLineChart.m; sourceTree = "<group>"; };
+		75701B661FDEDD7500374E9A /* JLLineChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLLineChartData.h; sourceTree = "<group>"; };
+		75701B671FDEDD7500374E9A /* JLLineChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLLineChartData.m; sourceTree = "<group>"; };
+		75701B681FDEDD7500374E9A /* JLPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPieChart.h; sourceTree = "<group>"; };
+		75701B691FDEDD7500374E9A /* JLPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLPieChart.m; sourceTree = "<group>"; };
+		75701B6A1FDEDD7500374E9A /* JLPieChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPieChartData.h; sourceTree = "<group>"; };
+		75701B6B1FDEDD7500374E9A /* JLPieChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLPieChartData.m; sourceTree = "<group>"; };
+		75701B6C1FDEDD7500374E9A /* JLSingleLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSingleLineChart.h; sourceTree = "<group>"; };
+		75701B6D1FDEDD7500374E9A /* JLSingleLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLSingleLineChart.m; sourceTree = "<group>"; };
+		75701B771FDEDD8700374E9A /* showtubiaoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = showtubiaoViewController.h; sourceTree = "<group>"; };
+		75701B781FDEDD8700374E9A /* showtubiaoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = showtubiaoViewController.m; sourceTree = "<group>"; };
+		75701B7A1FDEDDC700374E9A /* tubiao.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = tubiao.xcassets; sourceTree = "<group>"; };
 		FB9AC0A39F70795457F83C18 /* libPods-ArrQTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArrQTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -251,6 +285,7 @@
 		75701A2F1FDECAB700374E9A /* Tools(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				75701B581FDEDD1A00374E9A /* 图表类 */,
 				75701B4B1FDEDC0300374E9A /* 加载HTML */,
 				75701A7A1FDED4BA00374E9A /* 滚动条title */,
 				75701A641FDED21600374E9A /* 监听+通知 */,
@@ -465,6 +500,44 @@
 			path = "webHtml-1";
 			sourceTree = "<group>";
 		};
+		75701B581FDEDD1A00374E9A /* 图表类 */ = {
+			isa = PBXGroup;
+			children = (
+				75701B591FDEDD7500374E9A /* Chart */,
+				75701B771FDEDD8700374E9A /* showtubiaoViewController.h */,
+				75701B781FDEDD8700374E9A /* showtubiaoViewController.m */,
+				75701B7A1FDEDDC700374E9A /* tubiao.xcassets */,
+			);
+			path = "图表类";
+			sourceTree = "<group>";
+		};
+		75701B591FDEDD7500374E9A /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				75701B5A1FDEDD7500374E9A /* JLBaseChart.h */,
+				75701B5B1FDEDD7500374E9A /* JLBaseChart.m */,
+				75701B5C1FDEDD7500374E9A /* JLBubble.h */,
+				75701B5D1FDEDD7500374E9A /* JLBubble.m */,
+				75701B5E1FDEDD7500374E9A /* JLChart.h */,
+				75701B5F1FDEDD7500374E9A /* JLChartDelegate.h */,
+				75701B601FDEDD7500374E9A /* JLChartPointItem.h */,
+				75701B611FDEDD7500374E9A /* JLChartPointItem.m */,
+				75701B621FDEDD7500374E9A /* JLChartPointSet.h */,
+				75701B631FDEDD7500374E9A /* JLChartPointSet.m */,
+				75701B641FDEDD7500374E9A /* JLLineChart.h */,
+				75701B651FDEDD7500374E9A /* JLLineChart.m */,
+				75701B661FDEDD7500374E9A /* JLLineChartData.h */,
+				75701B671FDEDD7500374E9A /* JLLineChartData.m */,
+				75701B681FDEDD7500374E9A /* JLPieChart.h */,
+				75701B691FDEDD7500374E9A /* JLPieChart.m */,
+				75701B6A1FDEDD7500374E9A /* JLPieChartData.h */,
+				75701B6B1FDEDD7500374E9A /* JLPieChartData.m */,
+				75701B6C1FDEDD7500374E9A /* JLSingleLineChart.h */,
+				75701B6D1FDEDD7500374E9A /* JLSingleLineChart.m */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -581,6 +654,7 @@
 				75701A8D1FDED59400374E9A /* show.xcassets in Resources */,
 				75701A2E1FDECA6E00374E9A /* 无线轮播图片资源.xcassets in Resources */,
 				75701A571FDECEDA00374E9A /* 选中图标.xcassets in Resources */,
+				75701B7B1FDEDDC700374E9A /* tubiao.xcassets in Resources */,
 				75701A081FDEC81C00374E9A /* LaunchScreen.storyboard in Resources */,
 				75701B571FDEDC3700374E9A /* RootViewController.xib in Resources */,
 				75701A051FDEC81C00374E9A /* Assets.xcassets in Resources */,
@@ -667,12 +741,15 @@
 				75701A371FDECAFD00374E9A /* wuxialunboViewController.m in Sources */,
 				75701A001FDEC81C00374E9A /* ViewController.m in Sources */,
 				75701ABA1FDED7AC00374E9A /* DDTableViewHeader.m in Sources */,
+				75701B701FDEDD7500374E9A /* JLChartPointItem.m in Sources */,
 				75701A781FDED32200374E9A /* person.m in Sources */,
 				75701A4F1FDECE4300374E9A /* SelCell.m in Sources */,
 				75701A0B1FDEC81C00374E9A /* main.m in Sources */,
 				75701A841FDED4BB00374E9A /* CathecticModel.m in Sources */,
 				75701AB91FDED7AC00374E9A /* UIColor+Extension.m in Sources */,
+				75701B791FDEDD8700374E9A /* showtubiaoViewController.m in Sources */,
 				75701A791FDED32200374E9A /* tttttViewController.m in Sources */,
+				75701B711FDEDD7500374E9A /* JLChartPointSet.m in Sources */,
 				757019FD1FDEC81C00374E9A /* AppDelegate.m in Sources */,
 				75701AB71FDED7AC00374E9A /* DDCellModel.m in Sources */,
 				75701A501FDECE4300374E9A /* SelModel.m in Sources */,
@@ -686,12 +763,19 @@
 				75701A331FDECAB700374E9A /* PicturePlayer.m in Sources */,
 				75701A871FDED4BB00374E9A /* TitleScrollView.m in Sources */,
 				75701A511FDECE4300374E9A /* subSelModel.m in Sources */,
+				75701B761FDEDD7500374E9A /* JLSingleLineChart.m in Sources */,
+				75701B731FDEDD7500374E9A /* JLLineChartData.m in Sources */,
 				75701B561FDEDC3700374E9A /* RootViewController.m in Sources */,
+				75701B721FDEDD7500374E9A /* JLLineChart.m in Sources */,
+				75701B751FDEDD7500374E9A /* JLPieChartData.m in Sources */,
 				75701A861FDED4BB00374E9A /* UIView+SGExtension.m in Sources */,
 				75701A851FDED4BB00374E9A /* SGTopScrollMenu.m in Sources */,
 				75701A551FDECE5B00374E9A /* cellzhankaiViewController.m in Sources */,
+				75701B741FDEDD7500374E9A /* JLPieChart.m in Sources */,
 				75701A611FDED10D00374E9A /* zitiViewController.m in Sources */,
+				75701B6F1FDEDD7500374E9A /* JLBubble.m in Sources */,
 				75701B551FDEDC3700374E9A /* DKSWebViewController.m in Sources */,
+				75701B6E1FDEDD7500374E9A /* JLBaseChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
