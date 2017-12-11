@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "showViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +17,23 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    return YES;
+    _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    _window.backgroundColor = [UIColor whiteColor];
+    
+    
+    showViewController *vc = [[showViewController alloc]init];
+    UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vc];
+    
+    _window.rootViewController = navi;
+    [NSThread sleepForTimeInterval:1.0];
+    
+    //设置 NAVigationBar 背景色
+    [[UINavigationBar appearance] setBarTintColor:[UIColor redColor]];
+    [[UINavigationBar appearance] setTintColor:[UIColor redColor]];
+    [UINavigationBar appearance].translucent = NO;
+    //设置 导航栏字体和颜色
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName:[UIFont fontWithName:@"Helvetica-Bold" size:21]}];
+    [_window makeKeyAndVisible];    return YES;
 }
 
 

@@ -28,6 +28,15 @@
 		75701A5D1FDED07B00374E9A /* ManageColorAttributed.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701A5C1FDED07B00374E9A /* ManageColorAttributed.m */; };
 		75701A611FDED10D00374E9A /* zitiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701A601FDED10D00374E9A /* zitiViewController.m */; };
 		75701A631FDED13B00374E9A /* show.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75701A621FDED13B00374E9A /* show.xcassets */; };
+		75701A771FDED32200374E9A /* jiantingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701A721FDED32200374E9A /* jiantingViewController.m */; };
+		75701A781FDED32200374E9A /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701A741FDED32200374E9A /* person.m */; };
+		75701A791FDED32200374E9A /* tttttViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701A761FDED32200374E9A /* tttttViewController.m */; };
+		75701A841FDED4BB00374E9A /* CathecticModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701A7C1FDED4BA00374E9A /* CathecticModel.m */; };
+		75701A851FDED4BB00374E9A /* SGTopScrollMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701A7F1FDED4BA00374E9A /* SGTopScrollMenu.m */; };
+		75701A861FDED4BB00374E9A /* UIView+SGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701A811FDED4BA00374E9A /* UIView+SGExtension.m */; };
+		75701A871FDED4BB00374E9A /* TitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701A831FDED4BA00374E9A /* TitleScrollView.m */; };
+		75701A8B1FDED4F800374E9A /* showViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701A8A1FDED4F800374E9A /* showViewController.m */; };
+		75701A8D1FDED59400374E9A /* show.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75701A8C1FDED59400374E9A /* show.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +95,23 @@
 		75701A5F1FDED10D00374E9A /* zitiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zitiViewController.h; sourceTree = "<group>"; };
 		75701A601FDED10D00374E9A /* zitiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zitiViewController.m; sourceTree = "<group>"; };
 		75701A621FDED13B00374E9A /* show.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = show.xcassets; sourceTree = "<group>"; };
+		75701A711FDED32200374E9A /* jiantingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jiantingViewController.h; sourceTree = "<group>"; };
+		75701A721FDED32200374E9A /* jiantingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jiantingViewController.m; sourceTree = "<group>"; };
+		75701A731FDED32200374E9A /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		75701A741FDED32200374E9A /* person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
+		75701A751FDED32200374E9A /* tttttViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tttttViewController.h; sourceTree = "<group>"; };
+		75701A761FDED32200374E9A /* tttttViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tttttViewController.m; sourceTree = "<group>"; };
+		75701A7B1FDED4BA00374E9A /* CathecticModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CathecticModel.h; sourceTree = "<group>"; };
+		75701A7C1FDED4BA00374E9A /* CathecticModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CathecticModel.m; sourceTree = "<group>"; };
+		75701A7E1FDED4BA00374E9A /* SGTopScrollMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGTopScrollMenu.h; sourceTree = "<group>"; };
+		75701A7F1FDED4BA00374E9A /* SGTopScrollMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGTopScrollMenu.m; sourceTree = "<group>"; };
+		75701A801FDED4BA00374E9A /* UIView+SGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SGExtension.h"; sourceTree = "<group>"; };
+		75701A811FDED4BA00374E9A /* UIView+SGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SGExtension.m"; sourceTree = "<group>"; };
+		75701A821FDED4BA00374E9A /* TitleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScrollView.h; sourceTree = "<group>"; };
+		75701A831FDED4BA00374E9A /* TitleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScrollView.m; sourceTree = "<group>"; };
+		75701A891FDED4F800374E9A /* showViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = showViewController.h; sourceTree = "<group>"; };
+		75701A8A1FDED4F800374E9A /* showViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = showViewController.m; sourceTree = "<group>"; };
+		75701A8C1FDED59400374E9A /* show.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = show.xcassets; sourceTree = "<group>"; };
 		FB9AC0A39F70795457F83C18 /* libPods-ArrQTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArrQTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -192,6 +218,8 @@
 		75701A2F1FDECAB700374E9A /* Tools(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				75701A7A1FDED4BA00374E9A /* 滚动条title */,
+				75701A641FDED21600374E9A /* 监听+通知 */,
 				75701A581FDED07B00374E9A /* 富文本 */,
 				75701A381FDECCFC00374E9A /* cell区 */,
 				75701A301FDECAB700374E9A /* 无线轮播器 */,
@@ -284,6 +312,61 @@
 				75701A5F1FDED10D00374E9A /* zitiViewController.h */,
 				75701A601FDED10D00374E9A /* zitiViewController.m */,
 				75701A621FDED13B00374E9A /* show.xcassets */,
+			);
+			path = showdemo;
+			sourceTree = "<group>";
+		};
+		75701A641FDED21600374E9A /* 监听+通知 */ = {
+			isa = PBXGroup;
+			children = (
+				75701A701FDED32200374E9A /* showdemo */,
+			);
+			path = "监听+通知";
+			sourceTree = "<group>";
+		};
+		75701A701FDED32200374E9A /* showdemo */ = {
+			isa = PBXGroup;
+			children = (
+				75701A711FDED32200374E9A /* jiantingViewController.h */,
+				75701A721FDED32200374E9A /* jiantingViewController.m */,
+				75701A731FDED32200374E9A /* person.h */,
+				75701A741FDED32200374E9A /* person.m */,
+				75701A751FDED32200374E9A /* tttttViewController.h */,
+				75701A761FDED32200374E9A /* tttttViewController.m */,
+			);
+			path = showdemo;
+			sourceTree = "<group>";
+		};
+		75701A7A1FDED4BA00374E9A /* 滚动条title */ = {
+			isa = PBXGroup;
+			children = (
+				75701A881FDED4D500374E9A /* showdemo */,
+				75701A7B1FDED4BA00374E9A /* CathecticModel.h */,
+				75701A7C1FDED4BA00374E9A /* CathecticModel.m */,
+				75701A7D1FDED4BA00374E9A /* SGTopScrollMenu */,
+				75701A821FDED4BA00374E9A /* TitleScrollView.h */,
+				75701A831FDED4BA00374E9A /* TitleScrollView.m */,
+			);
+			path = "滚动条title";
+			sourceTree = "<group>";
+		};
+		75701A7D1FDED4BA00374E9A /* SGTopScrollMenu */ = {
+			isa = PBXGroup;
+			children = (
+				75701A7E1FDED4BA00374E9A /* SGTopScrollMenu.h */,
+				75701A7F1FDED4BA00374E9A /* SGTopScrollMenu.m */,
+				75701A801FDED4BA00374E9A /* UIView+SGExtension.h */,
+				75701A811FDED4BA00374E9A /* UIView+SGExtension.m */,
+			);
+			path = SGTopScrollMenu;
+			sourceTree = "<group>";
+		};
+		75701A881FDED4D500374E9A /* showdemo */ = {
+			isa = PBXGroup;
+			children = (
+				75701A891FDED4F800374E9A /* showViewController.h */,
+				75701A8A1FDED4F800374E9A /* showViewController.m */,
+				75701A8C1FDED59400374E9A /* show.xcassets */,
 			);
 			path = showdemo;
 			sourceTree = "<group>";
@@ -399,6 +482,7 @@
 			files = (
 				75701A521FDECE4300374E9A /* TextInfo.json in Resources */,
 				75701A631FDED13B00374E9A /* show.xcassets in Resources */,
+				75701A8D1FDED59400374E9A /* show.xcassets in Resources */,
 				75701A2E1FDECA6E00374E9A /* 无线轮播图片资源.xcassets in Resources */,
 				75701A571FDECEDA00374E9A /* 选中图标.xcassets in Resources */,
 				75701A081FDEC81C00374E9A /* LaunchScreen.storyboard in Resources */,
@@ -485,13 +569,21 @@
 			files = (
 				75701A371FDECAFD00374E9A /* wuxialunboViewController.m in Sources */,
 				75701A001FDEC81C00374E9A /* ViewController.m in Sources */,
+				75701A781FDED32200374E9A /* person.m in Sources */,
 				75701A4F1FDECE4300374E9A /* SelCell.m in Sources */,
 				75701A0B1FDEC81C00374E9A /* main.m in Sources */,
+				75701A841FDED4BB00374E9A /* CathecticModel.m in Sources */,
+				75701A791FDED32200374E9A /* tttttViewController.m in Sources */,
 				757019FD1FDEC81C00374E9A /* AppDelegate.m in Sources */,
 				75701A501FDECE4300374E9A /* SelModel.m in Sources */,
+				75701A8B1FDED4F800374E9A /* showViewController.m in Sources */,
+				75701A771FDED32200374E9A /* jiantingViewController.m in Sources */,
 				75701A5D1FDED07B00374E9A /* ManageColorAttributed.m in Sources */,
 				75701A331FDECAB700374E9A /* PicturePlayer.m in Sources */,
+				75701A871FDED4BB00374E9A /* TitleScrollView.m in Sources */,
 				75701A511FDECE4300374E9A /* subSelModel.m in Sources */,
+				75701A861FDED4BB00374E9A /* UIView+SGExtension.m in Sources */,
+				75701A851FDED4BB00374E9A /* SGTopScrollMenu.m in Sources */,
 				75701A551FDECE5B00374E9A /* cellzhankaiViewController.m in Sources */,
 				75701A611FDED10D00374E9A /* zitiViewController.m in Sources */,
 			);
