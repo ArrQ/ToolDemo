@@ -25,6 +25,9 @@
 		75701A521FDECE4300374E9A /* TextInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 75701A4E1FDECE4300374E9A /* TextInfo.json */; };
 		75701A551FDECE5B00374E9A /* cellzhankaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701A541FDECE5B00374E9A /* cellzhankaiViewController.m */; };
 		75701A571FDECEDA00374E9A /* 选中图标.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75701A561FDECEDA00374E9A /* 选中图标.xcassets */; };
+		75701A5D1FDED07B00374E9A /* ManageColorAttributed.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701A5C1FDED07B00374E9A /* ManageColorAttributed.m */; };
+		75701A611FDED10D00374E9A /* zitiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75701A601FDED10D00374E9A /* zitiViewController.m */; };
+		75701A631FDED13B00374E9A /* show.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75701A621FDED13B00374E9A /* show.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +81,11 @@
 		75701A531FDECE5B00374E9A /* cellzhankaiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cellzhankaiViewController.h; sourceTree = "<group>"; };
 		75701A541FDECE5B00374E9A /* cellzhankaiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cellzhankaiViewController.m; sourceTree = "<group>"; };
 		75701A561FDECEDA00374E9A /* 选中图标.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "选中图标.xcassets"; sourceTree = "<group>"; };
+		75701A5B1FDED07B00374E9A /* ManageColorAttributed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageColorAttributed.h; sourceTree = "<group>"; };
+		75701A5C1FDED07B00374E9A /* ManageColorAttributed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageColorAttributed.m; sourceTree = "<group>"; };
+		75701A5F1FDED10D00374E9A /* zitiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zitiViewController.h; sourceTree = "<group>"; };
+		75701A601FDED10D00374E9A /* zitiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zitiViewController.m; sourceTree = "<group>"; };
+		75701A621FDED13B00374E9A /* show.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = show.xcassets; sourceTree = "<group>"; };
 		FB9AC0A39F70795457F83C18 /* libPods-ArrQTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArrQTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -184,6 +192,7 @@
 		75701A2F1FDECAB700374E9A /* Tools(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				75701A581FDED07B00374E9A /* 富文本 */,
 				75701A381FDECCFC00374E9A /* cell区 */,
 				75701A301FDECAB700374E9A /* 无线轮播器 */,
 			);
@@ -239,6 +248,42 @@
 				75701A531FDECE5B00374E9A /* cellzhankaiViewController.h */,
 				75701A541FDECE5B00374E9A /* cellzhankaiViewController.m */,
 				75701A561FDECEDA00374E9A /* 选中图标.xcassets */,
+			);
+			path = showdemo;
+			sourceTree = "<group>";
+		};
+		75701A581FDED07B00374E9A /* 富文本 */ = {
+			isa = PBXGroup;
+			children = (
+				75701A591FDED07B00374E9A /* 字体调色等 */,
+			);
+			path = "富文本";
+			sourceTree = "<group>";
+		};
+		75701A591FDED07B00374E9A /* 字体调色等 */ = {
+			isa = PBXGroup;
+			children = (
+				75701A5E1FDED0EF00374E9A /* showdemo */,
+				75701A5A1FDED07B00374E9A /* 富文本 */,
+			);
+			path = "字体调色等";
+			sourceTree = "<group>";
+		};
+		75701A5A1FDED07B00374E9A /* 富文本 */ = {
+			isa = PBXGroup;
+			children = (
+				75701A5B1FDED07B00374E9A /* ManageColorAttributed.h */,
+				75701A5C1FDED07B00374E9A /* ManageColorAttributed.m */,
+			);
+			path = "富文本";
+			sourceTree = "<group>";
+		};
+		75701A5E1FDED0EF00374E9A /* showdemo */ = {
+			isa = PBXGroup;
+			children = (
+				75701A5F1FDED10D00374E9A /* zitiViewController.h */,
+				75701A601FDED10D00374E9A /* zitiViewController.m */,
+				75701A621FDED13B00374E9A /* show.xcassets */,
 			);
 			path = showdemo;
 			sourceTree = "<group>";
@@ -353,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75701A521FDECE4300374E9A /* TextInfo.json in Resources */,
+				75701A631FDED13B00374E9A /* show.xcassets in Resources */,
 				75701A2E1FDECA6E00374E9A /* 无线轮播图片资源.xcassets in Resources */,
 				75701A571FDECEDA00374E9A /* 选中图标.xcassets in Resources */,
 				75701A081FDEC81C00374E9A /* LaunchScreen.storyboard in Resources */,
@@ -443,9 +489,11 @@
 				75701A0B1FDEC81C00374E9A /* main.m in Sources */,
 				757019FD1FDEC81C00374E9A /* AppDelegate.m in Sources */,
 				75701A501FDECE4300374E9A /* SelModel.m in Sources */,
+				75701A5D1FDED07B00374E9A /* ManageColorAttributed.m in Sources */,
 				75701A331FDECAB700374E9A /* PicturePlayer.m in Sources */,
 				75701A511FDECE4300374E9A /* subSelModel.m in Sources */,
 				75701A551FDECE5B00374E9A /* cellzhankaiViewController.m in Sources */,
+				75701A611FDED10D00374E9A /* zitiViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
