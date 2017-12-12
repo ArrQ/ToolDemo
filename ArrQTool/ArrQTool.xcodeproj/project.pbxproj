@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5F9BBC9EB7965259A418B311 /* libPods-ArrQTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9AC0A39F70795457F83C18 /* libPods-ArrQTool.a */; };
+		7506B9261FDF949D00DCD6D2 /* allTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7506B9211FDF949C00DCD6D2 /* allTableViewCell.m */; };
+		7506B9271FDF949D00DCD6D2 /* allview.m in Sources */ = {isa = PBXBuildFile; fileRef = 7506B9231FDF949C00DCD6D2 /* allview.m */; };
+		7506B9281FDF949D00DCD6D2 /* showxuanzhuangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7506B9251FDF949C00DCD6D2 /* showxuanzhuangViewController.m */; };
 		757019FD1FDEC81C00374E9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 757019FC1FDEC81C00374E9A /* AppDelegate.m */; };
 		75701A001FDEC81C00374E9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757019FF1FDEC81C00374E9A /* ViewController.m */; };
 		75701A031FDEC81C00374E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75701A011FDEC81C00374E9A /* Main.storyboard */; };
@@ -82,6 +85,12 @@
 /* Begin PBXFileReference section */
 		3C97146B548A38A2C03168FD /* Pods-ArrQTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArrQTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArrQTool/Pods-ArrQTool.release.xcconfig"; sourceTree = "<group>"; };
 		41F0E1747560B23F570F88BD /* Pods-ArrQTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArrQTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArrQTool/Pods-ArrQTool.debug.xcconfig"; sourceTree = "<group>"; };
+		7506B9201FDF949C00DCD6D2 /* allTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allTableViewCell.h; sourceTree = "<group>"; };
+		7506B9211FDF949C00DCD6D2 /* allTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = allTableViewCell.m; sourceTree = "<group>"; };
+		7506B9221FDF949C00DCD6D2 /* allview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allview.h; sourceTree = "<group>"; };
+		7506B9231FDF949C00DCD6D2 /* allview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = allview.m; sourceTree = "<group>"; };
+		7506B9241FDF949C00DCD6D2 /* showxuanzhuangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showxuanzhuangViewController.h; sourceTree = "<group>"; };
+		7506B9251FDF949C00DCD6D2 /* showxuanzhuangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showxuanzhuangViewController.m; sourceTree = "<group>"; };
 		757019F81FDEC81C00374E9A /* ArrQTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArrQTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		757019FB1FDEC81C00374E9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		757019FC1FDEC81C00374E9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -225,6 +234,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7506B91F1FDF949C00DCD6D2 /* 旋转tableview成柱状 */ = {
+			isa = PBXGroup;
+			children = (
+				7506B9201FDF949C00DCD6D2 /* allTableViewCell.h */,
+				7506B9211FDF949C00DCD6D2 /* allTableViewCell.m */,
+				7506B9221FDF949C00DCD6D2 /* allview.h */,
+				7506B9231FDF949C00DCD6D2 /* allview.m */,
+				7506B9241FDF949C00DCD6D2 /* showxuanzhuangViewController.h */,
+				7506B9251FDF949C00DCD6D2 /* showxuanzhuangViewController.m */,
+			);
+			path = "旋转tableview成柱状";
+			sourceTree = "<group>";
+		};
 		757019EF1FDEC81C00374E9A = {
 			isa = PBXGroup;
 			children = (
@@ -285,6 +307,7 @@
 		75701A2F1FDECAB700374E9A /* Tools(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				7506B91F1FDF949C00DCD6D2 /* 旋转tableview成柱状 */,
 				75701B581FDEDD1A00374E9A /* 图表类 */,
 				75701B4B1FDEDC0300374E9A /* 加载HTML */,
 				75701A7A1FDED4BA00374E9A /* 滚动条title */,
@@ -738,12 +761,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7506B9271FDF949D00DCD6D2 /* allview.m in Sources */,
 				75701A371FDECAFD00374E9A /* wuxialunboViewController.m in Sources */,
 				75701A001FDEC81C00374E9A /* ViewController.m in Sources */,
 				75701ABA1FDED7AC00374E9A /* DDTableViewHeader.m in Sources */,
 				75701B701FDEDD7500374E9A /* JLChartPointItem.m in Sources */,
 				75701A781FDED32200374E9A /* person.m in Sources */,
 				75701A4F1FDECE4300374E9A /* SelCell.m in Sources */,
+				7506B9281FDF949D00DCD6D2 /* showxuanzhuangViewController.m in Sources */,
 				75701A0B1FDEC81C00374E9A /* main.m in Sources */,
 				75701A841FDED4BB00374E9A /* CathecticModel.m in Sources */,
 				75701AB91FDED7AC00374E9A /* UIColor+Extension.m in Sources */,
@@ -776,6 +801,7 @@
 				75701B6F1FDEDD7500374E9A /* JLBubble.m in Sources */,
 				75701B551FDEDC3700374E9A /* DKSWebViewController.m in Sources */,
 				75701B6E1FDEDD7500374E9A /* JLBaseChart.m in Sources */,
+				7506B9261FDF949D00DCD6D2 /* allTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
