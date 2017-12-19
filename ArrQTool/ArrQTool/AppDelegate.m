@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "showViewController.h"
+#import "LableViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +22,7 @@
     _window.backgroundColor = [UIColor whiteColor];
     
     
-    showViewController *vc = [[showViewController alloc]init];
+    LableViewController *vc = [[LableViewController alloc]init];
     UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vc];
     
     _window.rootViewController = navi;
