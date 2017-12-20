@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "showViewController.h"
 #import "LableViewController.h"
+#import "bullViewController.h"
 
 @interface AppDelegate ()
 
@@ -22,7 +23,7 @@
     _window.backgroundColor = [UIColor whiteColor];
     
     
-    LableViewController *vc = [[LableViewController alloc]init];
+    bullViewController *vc = [[bullViewController alloc]init];
     UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vc];
     
     _window.rootViewController = navi;

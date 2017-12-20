@@ -13,6 +13,7 @@
 		7506B9281FDF949D00DCD6D2 /* showxuanzhuangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7506B9251FDF949C00DCD6D2 /* showxuanzhuangViewController.m */; };
 		75630DEC1FE8AC2A008C4998 /* UILabel+LableExtentsion.m in Sources */ = {isa = PBXBuildFile; fileRef = 75630DEB1FE8AC2A008C4998 /* UILabel+LableExtentsion.m */; };
 		75630DEF1FE8AD07008C4998 /* LableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75630DEE1FE8AD07008C4998 /* LableViewController.m */; };
+		75630DF41FE8DD41008C4998 /* bullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75630DF31FE8DD41008C4998 /* bullViewController.m */; };
 		757019FD1FDEC81C00374E9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 757019FC1FDEC81C00374E9A /* AppDelegate.m */; };
 		75701A001FDEC81C00374E9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 757019FF1FDEC81C00374E9A /* ViewController.m */; };
 		75701A031FDEC81C00374E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75701A011FDEC81C00374E9A /* Main.storyboard */; };
@@ -97,6 +98,8 @@
 		75630DEB1FE8AC2A008C4998 /* UILabel+LableExtentsion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LableExtentsion.m"; sourceTree = "<group>"; };
 		75630DED1FE8AD07008C4998 /* LableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LableViewController.h; sourceTree = "<group>"; };
 		75630DEE1FE8AD07008C4998 /* LableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LableViewController.m; sourceTree = "<group>"; };
+		75630DF21FE8DD41008C4998 /* bullViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bullViewController.h; sourceTree = "<group>"; };
+		75630DF31FE8DD41008C4998 /* bullViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bullViewController.m; sourceTree = "<group>"; };
 		757019F81FDEC81C00374E9A /* ArrQTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArrQTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		757019FB1FDEC81C00374E9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		757019FC1FDEC81C00374E9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -264,6 +267,23 @@
 			path = category;
 			sourceTree = "<group>";
 		};
+		75630DF01FE8DC77008C4998 /* 算法计算等 */ = {
+			isa = PBXGroup;
+			children = (
+				75630DF11FE8DC8C008C4998 /* 球球bull */,
+			);
+			path = "算法计算等";
+			sourceTree = "<group>";
+		};
+		75630DF11FE8DC8C008C4998 /* 球球bull */ = {
+			isa = PBXGroup;
+			children = (
+				75630DF21FE8DD41008C4998 /* bullViewController.h */,
+				75630DF31FE8DD41008C4998 /* bullViewController.m */,
+			);
+			path = "球球bull";
+			sourceTree = "<group>";
+		};
 		757019EF1FDEC81C00374E9A = {
 			isa = PBXGroup;
 			children = (
@@ -324,6 +344,7 @@
 		75701A2F1FDECAB700374E9A /* Tools(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				75630DF01FE8DC77008C4998 /* 算法计算等 */,
 				75630DE91FE8ABBB008C4998 /* category */,
 				7506B91F1FDF949C00DCD6D2 /* 旋转tableview成柱状 */,
 				75701B581FDEDD1A00374E9A /* 图表类 */,
@@ -812,6 +833,7 @@
 				75701B721FDEDD7500374E9A /* JLLineChart.m in Sources */,
 				75630DEF1FE8AD07008C4998 /* LableViewController.m in Sources */,
 				75701B751FDEDD7500374E9A /* JLPieChartData.m in Sources */,
+				75630DF41FE8DD41008C4998 /* bullViewController.m in Sources */,
 				75701A861FDED4BB00374E9A /* UIView+SGExtension.m in Sources */,
 				75701A851FDED4BB00374E9A /* SGTopScrollMenu.m in Sources */,
 				75630DEC1FE8AC2A008C4998 /* UILabel+LableExtentsion.m in Sources */,
