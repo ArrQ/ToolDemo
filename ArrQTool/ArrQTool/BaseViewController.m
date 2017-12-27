@@ -1,36 +1,31 @@
 //
-//  ViewController.m
+//  BaseViewController.m
 //  ArrQTool
 //
-//  Created by ArrQ on 2017/12/11.
+//  Created by ArrQ on 2017/12/27.
 //  Copyright © 2017年 ArrQ. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "BaseViewController.h"
 
-@interface ViewController ()
-
-
+@interface BaseViewController ()
 
 @end
 
-@implementation ViewController
+@implementation BaseViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
 
-
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 
-
-
-
 }
+
+
 
 
 @end

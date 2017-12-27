@@ -26,7 +26,7 @@
     button_.backgroundColor = [UIColor redColor];
     
     [button_ setTitleColor:[UIColor colorWithWhite:0.5 alpha:1.0] forState:UIControlStateNormal];
-    [button_ addTarget:self action:@selector(getqianhouxaingtong) forControlEvents:UIControlEventTouchUpInside];
+    [button_ addTarget:self action:@selector(getqianhouxiangtong) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button_];
     
 
@@ -36,7 +36,8 @@
 
 
 
-- (void)getqianhouxaingtong{
+# pragma mark --- 数据 前后 是否 相同
+- (void)getqianhouxiangtong{
     
 
     NSMutableArray *dataArray = [NSMutableArray array];
@@ -71,7 +72,7 @@
             [arr2 addObject:tempArray];
         
 
-        if (i == arr1.count-1) {
+        if (i == arr1.count-1) {// 别忘记 加
 
             break;
 
@@ -211,6 +212,7 @@
 
 
 
+# pragma mark --- 数据 中 所有的 元素  是否 有相同
 
 - (void)getXiangtongyuansu{
     

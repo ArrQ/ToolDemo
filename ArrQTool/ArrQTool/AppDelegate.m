@@ -10,6 +10,7 @@
 #import "showViewController.h"
 #import "LableViewController.h"
 #import "bullViewController.h"
+#import "WebPageViewController.h"
 
 @interface AppDelegate ()
 
@@ -23,7 +24,7 @@
     _window.backgroundColor = [UIColor whiteColor];
     
     
-    bullViewController *vc = [[bullViewController alloc]init];
+    WebPageViewController *vc = [[WebPageViewController alloc]init];
     UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vc];
     
     _window.rootViewController = navi;
