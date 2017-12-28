@@ -37,6 +37,11 @@
 		7518D28B1FF553210008871F /* UIViewController+AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D2811FF553210008871F /* UIViewController+AlertView.m */; };
 		7518D28C1FF553210008871F /* Voice.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D2831FF553210008871F /* Voice.m */; };
 		7518D28D1FF553210008871F /* NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D2851FF553210008871F /* NullSafe.m */; };
+		7518D2991FF55B220008871F /* DVLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D2921FF55B220008871F /* DVLineChartView.m */; };
+		7518D29A1FF55B220008871F /* DVPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D2941FF55B220008871F /* DVPlot.m */; };
+		7518D29B1FF55B220008871F /* DVXAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D2961FF55B220008871F /* DVXAxisView.m */; };
+		7518D29C1FF55B220008871F /* DVYAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D2981FF55B220008871F /* DVYAxisView.m */; };
+		7518D29F1FF55B450008871F /* showzhexian2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D29E1FF55B450008871F /* showzhexian2ViewController.m */; };
 		75630DEC1FE8AC2A008C4998 /* UILabel+LableExtentsion.m in Sources */ = {isa = PBXBuildFile; fileRef = 75630DEB1FE8AC2A008C4998 /* UILabel+LableExtentsion.m */; };
 		75630DEF1FE8AD07008C4998 /* LableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75630DEE1FE8AD07008C4998 /* LableViewController.m */; };
 		75630DF41FE8DD41008C4998 /* bullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75630DF31FE8DD41008C4998 /* bullViewController.m */; };
@@ -163,6 +168,16 @@
 		7518D2821FF553210008871F /* Voice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Voice.h; sourceTree = "<group>"; };
 		7518D2831FF553210008871F /* Voice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Voice.m; sourceTree = "<group>"; };
 		7518D2851FF553210008871F /* NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NullSafe.m; sourceTree = "<group>"; };
+		7518D2911FF55B220008871F /* DVLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVLineChartView.h; sourceTree = "<group>"; };
+		7518D2921FF55B220008871F /* DVLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVLineChartView.m; sourceTree = "<group>"; };
+		7518D2931FF55B220008871F /* DVPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVPlot.h; sourceTree = "<group>"; };
+		7518D2941FF55B220008871F /* DVPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVPlot.m; sourceTree = "<group>"; };
+		7518D2951FF55B220008871F /* DVXAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVXAxisView.h; sourceTree = "<group>"; };
+		7518D2961FF55B220008871F /* DVXAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVXAxisView.m; sourceTree = "<group>"; };
+		7518D2971FF55B220008871F /* DVYAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVYAxisView.h; sourceTree = "<group>"; };
+		7518D2981FF55B220008871F /* DVYAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVYAxisView.m; sourceTree = "<group>"; };
+		7518D29D1FF55B450008871F /* showzhexian2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = showzhexian2ViewController.h; sourceTree = "<group>"; };
+		7518D29E1FF55B450008871F /* showzhexian2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = showzhexian2ViewController.m; sourceTree = "<group>"; };
 		75630DEA1FE8AC2A008C4998 /* UILabel+LableExtentsion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+LableExtentsion.h"; sourceTree = "<group>"; };
 		75630DEB1FE8AC2A008C4998 /* UILabel+LableExtentsion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LableExtentsion.m"; sourceTree = "<group>"; };
 		75630DED1FE8AD07008C4998 /* LableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LableViewController.h; sourceTree = "<group>"; };
@@ -461,6 +476,31 @@
 				7518D2851FF553210008871F /* NullSafe.m */,
 			);
 			path = "把<null>替换为nil类别";
+			sourceTree = "<group>";
+		};
+		7518D28F1FF557DA0008871F /* 折线图view2 */ = {
+			isa = PBXGroup;
+			children = (
+				7518D2901FF55B220008871F /* DVLineChartView */,
+				7518D29D1FF55B450008871F /* showzhexian2ViewController.h */,
+				7518D29E1FF55B450008871F /* showzhexian2ViewController.m */,
+			);
+			path = "折线图view2";
+			sourceTree = "<group>";
+		};
+		7518D2901FF55B220008871F /* DVLineChartView */ = {
+			isa = PBXGroup;
+			children = (
+				7518D2911FF55B220008871F /* DVLineChartView.h */,
+				7518D2921FF55B220008871F /* DVLineChartView.m */,
+				7518D2931FF55B220008871F /* DVPlot.h */,
+				7518D2941FF55B220008871F /* DVPlot.m */,
+				7518D2951FF55B220008871F /* DVXAxisView.h */,
+				7518D2961FF55B220008871F /* DVXAxisView.m */,
+				7518D2971FF55B220008871F /* DVYAxisView.h */,
+				7518D2981FF55B220008871F /* DVYAxisView.m */,
+			);
+			path = DVLineChartView;
 			sourceTree = "<group>";
 		};
 		75630DE91FE8ABBB008C4998 /* category */ = {
@@ -779,6 +819,7 @@
 		75701B581FDEDD1A00374E9A /* 图表类 */ = {
 			isa = PBXGroup;
 			children = (
+				7518D28F1FF557DA0008871F /* 折线图view2 */,
 				7518D2691FF5509D0008871F /* 条形图view2 */,
 				7518D2371FF347E40008871F /* collectionview条形图 */,
 				75701B591FDEDD7500374E9A /* Chart */,
@@ -1037,8 +1078,10 @@
 				75701A4F1FDECE4300374E9A /* SelCell.m in Sources */,
 				7506B9281FDF949D00DCD6D2 /* showxuanzhuangViewController.m in Sources */,
 				75701A0B1FDEC81C00374E9A /* main.m in Sources */,
+				7518D29C1FF55B220008871F /* DVYAxisView.m in Sources */,
 				75701A841FDED4BB00374E9A /* CathecticModel.m in Sources */,
 				75701AB91FDED7AC00374E9A /* UIColor+Extension.m in Sources */,
+				7518D29F1FF55B450008871F /* showzhexian2ViewController.m in Sources */,
 				7518D2321FF341210008871F /* BaseViewController.m in Sources */,
 				7518D28B1FF553210008871F /* UIViewController+AlertView.m in Sources */,
 				7518D2861FF553210008871F /* NSString+Category.m in Sources */,
@@ -1048,9 +1091,12 @@
 				7518D26C1FF551E80008871F /* showzhuzhuangtuViewController.m in Sources */,
 				7518D2531FF54FE40008871F /* HelpViewController.m in Sources */,
 				757019FD1FDEC81C00374E9A /* AppDelegate.m in Sources */,
+				7518D29B1FF55B220008871F /* DVXAxisView.m in Sources */,
+				7518D29A1FF55B220008871F /* DVPlot.m in Sources */,
 				75701AB71FDED7AC00374E9A /* DDCellModel.m in Sources */,
 				75701A501FDECE4300374E9A /* SelModel.m in Sources */,
 				75701A8B1FDED4F800374E9A /* showViewController.m in Sources */,
+				7518D2991FF55B220008871F /* DVLineChartView.m in Sources */,
 				75701B541FDEDC3700374E9A /* DKSHTMLController.m in Sources */,
 				75701AB81FDED7AC00374E9A /* DDSectionModel.m in Sources */,
 				75701A771FDED32200374E9A /* jiantingViewController.m in Sources */,
