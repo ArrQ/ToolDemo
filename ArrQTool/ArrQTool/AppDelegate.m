@@ -11,6 +11,7 @@
 #import "LableViewController.h"
 #import "bullViewController.h"
 #import "WebPageViewController.h"
+#import "showzhuzhuangtuViewController.h"
 
 @interface AppDelegate ()
 
@@ -24,7 +25,7 @@
     _window.backgroundColor = [UIColor whiteColor];
     
     
-    WebPageViewController *vc = [[WebPageViewController alloc]init];
+    showzhuzhuangtuViewController *vc = [[showzhuzhuangtuViewController alloc]init];
     UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vc];
     
     _window.rootViewController = navi;

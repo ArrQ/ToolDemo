@@ -15,6 +15,28 @@
 		7518D22C1FF33D7F0008871F /* WYWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D22B1FF33D7F0008871F /* WYWebProgressLayer.m */; };
 		7518D2321FF341210008871F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D2311FF341210008871F /* BaseViewController.m */; };
 		7518D2351FF341700008871F /* WebPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D2341FF341700008871F /* WebPageViewController.m */; };
+		7518D2531FF54FE40008871F /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D2511FF54FE40008871F /* HelpViewController.m */; };
+		7518D25F1FF550780008871F /* bjpk_yxgz.html in Resources */ = {isa = PBXBuildFile; fileRef = 7518D2551FF550780008871F /* bjpk_yxgz.html */; };
+		7518D2601FF550780008871F /* bjssc_yxgz.html in Resources */ = {isa = PBXBuildFile; fileRef = 7518D2561FF550780008871F /* bjssc_yxgz.html */; };
+		7518D2611FF550780008871F /* cqssc_yxgz.html in Resources */ = {isa = PBXBuildFile; fileRef = 7518D2571FF550780008871F /* cqssc_yxgz.html */; };
+		7518D2621FF550780008871F /* gdklsf_yxgz.html in Resources */ = {isa = PBXBuildFile; fileRef = 7518D2581FF550780008871F /* gdklsf_yxgz.html */; };
+		7518D2631FF550780008871F /* gdsyxw_yxgz.html in Resources */ = {isa = PBXBuildFile; fileRef = 7518D2591FF550780008871F /* gdsyxw_yxgz.html */; };
+		7518D2641FF550780008871F /* jsks_yxgz.html in Resources */ = {isa = PBXBuildFile; fileRef = 7518D25A1FF550780008871F /* jsks_yxgz.html */; };
+		7518D2651FF550780008871F /* tjssc_yxgz.html in Resources */ = {isa = PBXBuildFile; fileRef = 7518D25B1FF550780008871F /* tjssc_yxgz.html */; };
+		7518D2661FF550780008871F /* xjssc_yxgz.html in Resources */ = {isa = PBXBuildFile; fileRef = 7518D25C1FF550780008871F /* xjssc_yxgz.html */; };
+		7518D2671FF550780008871F /* xyft_yxgz.html in Resources */ = {isa = PBXBuildFile; fileRef = 7518D25D1FF550780008871F /* xyft_yxgz.html */; };
+		7518D2681FF550780008871F /* xync_yxgz.html in Resources */ = {isa = PBXBuildFile; fileRef = 7518D25E1FF550780008871F /* xync_yxgz.html */; };
+		7518D26C1FF551E80008871F /* showzhuzhuangtuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D26B1FF551E80008871F /* showzhuzhuangtuViewController.m */; };
+		7518D2721FF551F20008871F /* PTHistogramView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D26F1FF551F10008871F /* PTHistogramView.m */; };
+		7518D2731FF551F20008871F /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D2711FF551F10008871F /* UICountingLabel.m */; };
+		7518D2861FF553210008871F /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D2771FF553210008871F /* NSString+Category.m */; };
+		7518D2871FF553210008871F /* UIButton+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D2791FF553210008871F /* UIButton+Category.m */; };
+		7518D2881FF553210008871F /* UIColor+HexRGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D27B1FF553210008871F /* UIColor+HexRGB.m */; };
+		7518D2891FF553210008871F /* UITextField+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D27D1FF553210008871F /* UITextField+Category.m */; };
+		7518D28A1FF553210008871F /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D27F1FF553210008871F /* UIView+Extension.m */; };
+		7518D28B1FF553210008871F /* UIViewController+AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D2811FF553210008871F /* UIViewController+AlertView.m */; };
+		7518D28C1FF553210008871F /* Voice.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D2831FF553210008871F /* Voice.m */; };
+		7518D28D1FF553210008871F /* NullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D2851FF553210008871F /* NullSafe.m */; };
 		75630DEC1FE8AC2A008C4998 /* UILabel+LableExtentsion.m in Sources */ = {isa = PBXBuildFile; fileRef = 75630DEB1FE8AC2A008C4998 /* UILabel+LableExtentsion.m */; };
 		75630DEF1FE8AD07008C4998 /* LableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75630DEE1FE8AD07008C4998 /* LableViewController.m */; };
 		75630DF41FE8DD41008C4998 /* bullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75630DF31FE8DD41008C4998 /* bullViewController.m */; };
@@ -108,6 +130,39 @@
 		7518D2311FF341210008871F /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		7518D2331FF341700008871F /* WebPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebPageViewController.h; sourceTree = "<group>"; };
 		7518D2341FF341700008871F /* WebPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebPageViewController.m; sourceTree = "<group>"; };
+		7518D2511FF54FE40008871F /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		7518D2521FF54FE40008871F /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		7518D2551FF550780008871F /* bjpk_yxgz.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bjpk_yxgz.html; sourceTree = "<group>"; };
+		7518D2561FF550780008871F /* bjssc_yxgz.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bjssc_yxgz.html; sourceTree = "<group>"; };
+		7518D2571FF550780008871F /* cqssc_yxgz.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cqssc_yxgz.html; sourceTree = "<group>"; };
+		7518D2581FF550780008871F /* gdklsf_yxgz.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = gdklsf_yxgz.html; sourceTree = "<group>"; };
+		7518D2591FF550780008871F /* gdsyxw_yxgz.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = gdsyxw_yxgz.html; sourceTree = "<group>"; };
+		7518D25A1FF550780008871F /* jsks_yxgz.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jsks_yxgz.html; sourceTree = "<group>"; };
+		7518D25B1FF550780008871F /* tjssc_yxgz.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tjssc_yxgz.html; sourceTree = "<group>"; };
+		7518D25C1FF550780008871F /* xjssc_yxgz.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = xjssc_yxgz.html; sourceTree = "<group>"; };
+		7518D25D1FF550780008871F /* xyft_yxgz.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = xyft_yxgz.html; sourceTree = "<group>"; };
+		7518D25E1FF550780008871F /* xync_yxgz.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = xync_yxgz.html; sourceTree = "<group>"; };
+		7518D26A1FF551E80008871F /* showzhuzhuangtuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = showzhuzhuangtuViewController.h; sourceTree = "<group>"; };
+		7518D26B1FF551E80008871F /* showzhuzhuangtuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = showzhuzhuangtuViewController.m; sourceTree = "<group>"; };
+		7518D26E1FF551F10008871F /* PTHistogramView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTHistogramView.h; sourceTree = "<group>"; };
+		7518D26F1FF551F10008871F /* PTHistogramView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTHistogramView.m; sourceTree = "<group>"; };
+		7518D2701FF551F10008871F /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		7518D2711FF551F10008871F /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
+		7518D2761FF553210008871F /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		7518D2771FF553210008871F /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		7518D2781FF553210008871F /* UIButton+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Category.h"; sourceTree = "<group>"; };
+		7518D2791FF553210008871F /* UIButton+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Category.m"; sourceTree = "<group>"; };
+		7518D27A1FF553210008871F /* UIColor+HexRGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexRGB.h"; sourceTree = "<group>"; };
+		7518D27B1FF553210008871F /* UIColor+HexRGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexRGB.m"; sourceTree = "<group>"; };
+		7518D27C1FF553210008871F /* UITextField+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Category.h"; sourceTree = "<group>"; };
+		7518D27D1FF553210008871F /* UITextField+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Category.m"; sourceTree = "<group>"; };
+		7518D27E1FF553210008871F /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		7518D27F1FF553210008871F /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		7518D2801FF553210008871F /* UIViewController+AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AlertView.h"; sourceTree = "<group>"; };
+		7518D2811FF553210008871F /* UIViewController+AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AlertView.m"; sourceTree = "<group>"; };
+		7518D2821FF553210008871F /* Voice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Voice.h; sourceTree = "<group>"; };
+		7518D2831FF553210008871F /* Voice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Voice.m; sourceTree = "<group>"; };
+		7518D2851FF553210008871F /* NullSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NullSafe.m; sourceTree = "<group>"; };
 		75630DEA1FE8AC2A008C4998 /* UILabel+LableExtentsion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+LableExtentsion.h"; sourceTree = "<group>"; };
 		75630DEB1FE8AC2A008C4998 /* UILabel+LableExtentsion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LableExtentsion.m"; sourceTree = "<group>"; };
 		75630DED1FE8AD07008C4998 /* LableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LableViewController.h; sourceTree = "<group>"; };
@@ -283,6 +338,8 @@
 		7518D2211FF33AC10008871F /* webView */ = {
 			isa = PBXGroup;
 			children = (
+				7518D2541FF550780008871F /* allHtml */,
+				7518D24D1FF54FBD0008871F /* helpwebview(简单应用) */,
 				7518D2331FF341700008871F /* WebPageViewController.h */,
 				7518D2341FF341700008871F /* WebPageViewController.m */,
 			);
@@ -305,6 +362,105 @@
 				7518D22B1FF33D7F0008871F /* WYWebProgressLayer.m */,
 			);
 			path = "进度条";
+			sourceTree = "<group>";
+		};
+		7518D2361FF347C00008871F /* APPUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APPUI;
+			sourceTree = "<group>";
+		};
+		7518D2371FF347E40008871F /* collectionview条形图 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "collectionview条形图";
+			sourceTree = "<group>";
+		};
+		7518D24D1FF54FBD0008871F /* helpwebview(简单应用) */ = {
+			isa = PBXGroup;
+			children = (
+				7518D2521FF54FE40008871F /* HelpViewController.h */,
+				7518D2511FF54FE40008871F /* HelpViewController.m */,
+			);
+			path = "helpwebview(简单应用)";
+			sourceTree = "<group>";
+		};
+		7518D2541FF550780008871F /* allHtml */ = {
+			isa = PBXGroup;
+			children = (
+				7518D2551FF550780008871F /* bjpk_yxgz.html */,
+				7518D2561FF550780008871F /* bjssc_yxgz.html */,
+				7518D2571FF550780008871F /* cqssc_yxgz.html */,
+				7518D2581FF550780008871F /* gdklsf_yxgz.html */,
+				7518D2591FF550780008871F /* gdsyxw_yxgz.html */,
+				7518D25A1FF550780008871F /* jsks_yxgz.html */,
+				7518D25B1FF550780008871F /* tjssc_yxgz.html */,
+				7518D25C1FF550780008871F /* xjssc_yxgz.html */,
+				7518D25D1FF550780008871F /* xyft_yxgz.html */,
+				7518D25E1FF550780008871F /* xync_yxgz.html */,
+			);
+			path = allHtml;
+			sourceTree = "<group>";
+		};
+		7518D2691FF5509D0008871F /* 条形图view2 */ = {
+			isa = PBXGroup;
+			children = (
+				7518D26D1FF551F10008871F /* 柱状图 */,
+				7518D26A1FF551E80008871F /* showzhuzhuangtuViewController.h */,
+				7518D26B1FF551E80008871F /* showzhuzhuangtuViewController.m */,
+			);
+			path = "条形图view2";
+			sourceTree = "<group>";
+		};
+		7518D26D1FF551F10008871F /* 柱状图 */ = {
+			isa = PBXGroup;
+			children = (
+				7518D26E1FF551F10008871F /* PTHistogramView.h */,
+				7518D26F1FF551F10008871F /* PTHistogramView.m */,
+				7518D2701FF551F10008871F /* UICountingLabel.h */,
+				7518D2711FF551F10008871F /* UICountingLabel.m */,
+			);
+			path = "柱状图";
+			sourceTree = "<group>";
+		};
+		7518D2741FF552FF0008871F /* others */ = {
+			isa = PBXGroup;
+			children = (
+				7518D2751FF553210008871F /* Category */,
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		7518D2751FF553210008871F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7518D2761FF553210008871F /* NSString+Category.h */,
+				7518D2771FF553210008871F /* NSString+Category.m */,
+				7518D2781FF553210008871F /* UIButton+Category.h */,
+				7518D2791FF553210008871F /* UIButton+Category.m */,
+				7518D27A1FF553210008871F /* UIColor+HexRGB.h */,
+				7518D27B1FF553210008871F /* UIColor+HexRGB.m */,
+				7518D27C1FF553210008871F /* UITextField+Category.h */,
+				7518D27D1FF553210008871F /* UITextField+Category.m */,
+				7518D27E1FF553210008871F /* UIView+Extension.h */,
+				7518D27F1FF553210008871F /* UIView+Extension.m */,
+				7518D2801FF553210008871F /* UIViewController+AlertView.h */,
+				7518D2811FF553210008871F /* UIViewController+AlertView.m */,
+				7518D2821FF553210008871F /* Voice.h */,
+				7518D2831FF553210008871F /* Voice.m */,
+				7518D2841FF553210008871F /* 把<null>替换为nil类别 */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7518D2841FF553210008871F /* 把<null>替换为nil类别 */ = {
+			isa = PBXGroup;
+			children = (
+				7518D2851FF553210008871F /* NullSafe.m */,
+			);
+			path = "把<null>替换为nil类别";
 			sourceTree = "<group>";
 		};
 		75630DE91FE8ABBB008C4998 /* category */ = {
@@ -360,12 +516,14 @@
 		757019FA1FDEC81C00374E9A /* ArrQTool */ = {
 			isa = PBXGroup;
 			children = (
+				7518D2741FF552FF0008871F /* others */,
 				757019FB1FDEC81C00374E9A /* AppDelegate.h */,
 				757019FC1FDEC81C00374E9A /* AppDelegate.m */,
 				757019FE1FDEC81C00374E9A /* ViewController.h */,
 				757019FF1FDEC81C00374E9A /* ViewController.m */,
 				7518D2301FF341210008871F /* BaseViewController.h */,
 				7518D2311FF341210008871F /* BaseViewController.m */,
+				7518D2361FF347C00008871F /* APPUI */,
 				75701A2F1FDECAB700374E9A /* Tools(工具) */,
 				75701A011FDEC81C00374E9A /* Main.storyboard */,
 				75701A041FDEC81C00374E9A /* Assets.xcassets */,
@@ -621,6 +779,8 @@
 		75701B581FDEDD1A00374E9A /* 图表类 */ = {
 			isa = PBXGroup;
 			children = (
+				7518D2691FF5509D0008871F /* 条形图view2 */,
+				7518D2371FF347E40008871F /* collectionview条形图 */,
 				75701B591FDEDD7500374E9A /* Chart */,
 				75701B771FDEDD8700374E9A /* showtubiaoViewController.h */,
 				75701B781FDEDD8700374E9A /* showtubiaoViewController.m */,
@@ -767,16 +927,26 @@
 			files = (
 				75701ABD1FDED7C600374E9A /* show.xcassets in Resources */,
 				75701A521FDECE4300374E9A /* TextInfo.json in Resources */,
+				7518D2601FF550780008871F /* bjssc_yxgz.html in Resources */,
 				75701A631FDED13B00374E9A /* show.xcassets in Resources */,
 				75701AB61FDED7AC00374E9A /* headerList.plist in Resources */,
+				7518D2611FF550780008871F /* cqssc_yxgz.html in Resources */,
 				75701A8D1FDED59400374E9A /* show.xcassets in Resources */,
 				75701A2E1FDECA6E00374E9A /* 无线轮播图片资源.xcassets in Resources */,
 				75701A571FDECEDA00374E9A /* 选中图标.xcassets in Resources */,
+				7518D2671FF550780008871F /* xyft_yxgz.html in Resources */,
 				75701B7B1FDEDDC700374E9A /* tubiao.xcassets in Resources */,
+				7518D25F1FF550780008871F /* bjpk_yxgz.html in Resources */,
+				7518D2641FF550780008871F /* jsks_yxgz.html in Resources */,
+				7518D2651FF550780008871F /* tjssc_yxgz.html in Resources */,
 				75701A081FDEC81C00374E9A /* LaunchScreen.storyboard in Resources */,
 				75701B571FDEDC3700374E9A /* RootViewController.xib in Resources */,
+				7518D2631FF550780008871F /* gdsyxw_yxgz.html in Resources */,
 				75701A051FDEC81C00374E9A /* Assets.xcassets in Resources */,
+				7518D2681FF550780008871F /* xync_yxgz.html in Resources */,
 				75701A031FDEC81C00374E9A /* Main.storyboard in Resources */,
+				7518D2661FF550780008871F /* xjssc_yxgz.html in Resources */,
+				7518D2621FF550780008871F /* gdklsf_yxgz.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -861,6 +1031,8 @@
 				75701A001FDEC81C00374E9A /* ViewController.m in Sources */,
 				75701ABA1FDED7AC00374E9A /* DDTableViewHeader.m in Sources */,
 				75701B701FDEDD7500374E9A /* JLChartPointItem.m in Sources */,
+				7518D2731FF551F20008871F /* UICountingLabel.m in Sources */,
+				7518D28A1FF553210008871F /* UIView+Extension.m in Sources */,
 				75701A781FDED32200374E9A /* person.m in Sources */,
 				75701A4F1FDECE4300374E9A /* SelCell.m in Sources */,
 				7506B9281FDF949D00DCD6D2 /* showxuanzhuangViewController.m in Sources */,
@@ -868,9 +1040,13 @@
 				75701A841FDED4BB00374E9A /* CathecticModel.m in Sources */,
 				75701AB91FDED7AC00374E9A /* UIColor+Extension.m in Sources */,
 				7518D2321FF341210008871F /* BaseViewController.m in Sources */,
+				7518D28B1FF553210008871F /* UIViewController+AlertView.m in Sources */,
+				7518D2861FF553210008871F /* NSString+Category.m in Sources */,
 				75701B791FDEDD8700374E9A /* showtubiaoViewController.m in Sources */,
 				75701A791FDED32200374E9A /* tttttViewController.m in Sources */,
 				75701B711FDEDD7500374E9A /* JLChartPointSet.m in Sources */,
+				7518D26C1FF551E80008871F /* showzhuzhuangtuViewController.m in Sources */,
+				7518D2531FF54FE40008871F /* HelpViewController.m in Sources */,
 				757019FD1FDEC81C00374E9A /* AppDelegate.m in Sources */,
 				75701AB71FDED7AC00374E9A /* DDCellModel.m in Sources */,
 				75701A501FDECE4300374E9A /* SelModel.m in Sources */,
@@ -881,17 +1057,23 @@
 				75701A5D1FDED07B00374E9A /* ManageColorAttributed.m in Sources */,
 				75701AB51FDED7AC00374E9A /* DemoTableViewController.m in Sources */,
 				75701ABB1FDED7AC00374E9A /* MoreTableViewCell.m in Sources */,
+				7518D28C1FF553210008871F /* Voice.m in Sources */,
 				75701A331FDECAB700374E9A /* PicturePlayer.m in Sources */,
 				75701A871FDED4BB00374E9A /* TitleScrollView.m in Sources */,
 				75701A511FDECE4300374E9A /* subSelModel.m in Sources */,
 				7518D2351FF341700008871F /* WebPageViewController.m in Sources */,
+				7518D2891FF553210008871F /* UITextField+Category.m in Sources */,
+				7518D2721FF551F20008871F /* PTHistogramView.m in Sources */,
 				75701B761FDEDD7500374E9A /* JLSingleLineChart.m in Sources */,
 				75701B731FDEDD7500374E9A /* JLLineChartData.m in Sources */,
 				75701B561FDEDC3700374E9A /* RootViewController.m in Sources */,
+				7518D2881FF553210008871F /* UIColor+HexRGB.m in Sources */,
 				75701B721FDEDD7500374E9A /* JLLineChart.m in Sources */,
 				75630DEF1FE8AD07008C4998 /* LableViewController.m in Sources */,
+				7518D2871FF553210008871F /* UIButton+Category.m in Sources */,
 				75701B751FDEDD7500374E9A /* JLPieChartData.m in Sources */,
 				75630DF41FE8DD41008C4998 /* bullViewController.m in Sources */,
+				7518D28D1FF553210008871F /* NullSafe.m in Sources */,
 				75701A861FDED4BB00374E9A /* UIView+SGExtension.m in Sources */,
 				75701A851FDED4BB00374E9A /* SGTopScrollMenu.m in Sources */,
 				75630DEC1FE8AC2A008C4998 /* UILabel+LableExtentsion.m in Sources */,
