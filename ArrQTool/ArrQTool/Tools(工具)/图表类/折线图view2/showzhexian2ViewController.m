@@ -14,6 +14,8 @@
 
 @property(nonatomic,assign) CGFloat yMaxValue;
 
+@property (nonatomic,strong) NSMutableArray * XTitleArray;
+
 @end
 
 @implementation showzhexian2ViewController

@@ -42,6 +42,7 @@
 		7518D29B1FF55B220008871F /* DVXAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D2961FF55B220008871F /* DVXAxisView.m */; };
 		7518D29C1FF55B220008871F /* DVYAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D2981FF55B220008871F /* DVYAxisView.m */; };
 		7518D29F1FF55B450008871F /* showzhexian2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D29E1FF55B450008871F /* showzhexian2ViewController.m */; };
+		754549C21FFB312B00A5B3CD /* shunzibaozhiduiziVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 754549C11FFB312B00A5B3CD /* shunzibaozhiduiziVC.m */; };
 		75630DEC1FE8AC2A008C4998 /* UILabel+LableExtentsion.m in Sources */ = {isa = PBXBuildFile; fileRef = 75630DEB1FE8AC2A008C4998 /* UILabel+LableExtentsion.m */; };
 		75630DEF1FE8AD07008C4998 /* LableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75630DEE1FE8AD07008C4998 /* LableViewController.m */; };
 		75630DF41FE8DD41008C4998 /* bullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75630DF31FE8DD41008C4998 /* bullViewController.m */; };
@@ -178,6 +179,8 @@
 		7518D2981FF55B220008871F /* DVYAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVYAxisView.m; sourceTree = "<group>"; };
 		7518D29D1FF55B450008871F /* showzhexian2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = showzhexian2ViewController.h; sourceTree = "<group>"; };
 		7518D29E1FF55B450008871F /* showzhexian2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = showzhexian2ViewController.m; sourceTree = "<group>"; };
+		754549C01FFB312B00A5B3CD /* shunzibaozhiduiziVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shunzibaozhiduiziVC.h; sourceTree = "<group>"; };
+		754549C11FFB312B00A5B3CD /* shunzibaozhiduiziVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shunzibaozhiduiziVC.m; sourceTree = "<group>"; };
 		75630DEA1FE8AC2A008C4998 /* UILabel+LableExtentsion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+LableExtentsion.h"; sourceTree = "<group>"; };
 		75630DEB1FE8AC2A008C4998 /* UILabel+LableExtentsion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LableExtentsion.m"; sourceTree = "<group>"; };
 		75630DED1FE8AD07008C4998 /* LableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LableViewController.h; sourceTree = "<group>"; };
@@ -503,6 +506,15 @@
 			path = DVLineChartView;
 			sourceTree = "<group>";
 		};
+		754549BF1FFB30B400A5B3CD /* 顺子豹子对子等 */ = {
+			isa = PBXGroup;
+			children = (
+				754549C01FFB312B00A5B3CD /* shunzibaozhiduiziVC.h */,
+				754549C11FFB312B00A5B3CD /* shunzibaozhiduiziVC.m */,
+			);
+			path = "顺子豹子对子等";
+			sourceTree = "<group>";
+		};
 		75630DE91FE8ABBB008C4998 /* category */ = {
 			isa = PBXGroup;
 			children = (
@@ -517,6 +529,7 @@
 		75630DF01FE8DC77008C4998 /* 算法计算等 */ = {
 			isa = PBXGroup;
 			children = (
+				754549BF1FFB30B400A5B3CD /* 顺子豹子对子等 */,
 				75630DF11FE8DC8C008C4998 /* 球球bull */,
 			);
 			path = "算法计算等";
@@ -1099,6 +1112,7 @@
 				7518D2991FF55B220008871F /* DVLineChartView.m in Sources */,
 				75701B541FDEDC3700374E9A /* DKSHTMLController.m in Sources */,
 				75701AB81FDED7AC00374E9A /* DDSectionModel.m in Sources */,
+				754549C21FFB312B00A5B3CD /* shunzibaozhiduiziVC.m in Sources */,
 				75701A771FDED32200374E9A /* jiantingViewController.m in Sources */,
 				75701A5D1FDED07B00374E9A /* ManageColorAttributed.m in Sources */,
 				75701AB51FDED7AC00374E9A /* DemoTableViewController.m in Sources */,
