@@ -35,5 +35,101 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArrQTool/Tools(&#x5de5;&#x5177;)/FMDB(&#x6570;&#x636e;&#x5e93;)/&#x5c55;&#x793a;/showFMDBViewController.m"
+            timestampString = "537849700.730582"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArrQTool/Tools(&#x5de5;&#x5177;)/FMDB(&#x6570;&#x636e;&#x5e93;)/&#x5c55;&#x793a;/showFMDBViewController.m"
+            timestampString = "537849700.731197"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArrQTool/Tools(&#x5de5;&#x5177;)/FMDB(&#x6570;&#x636e;&#x5e93;)/&#x5c55;&#x793a;/showFMDBViewController.m"
+            timestampString = "537849700.731557"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "-getXingXing"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[showFMDBViewController getXingXing]"
+                  moduleName = "ArrQTool"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ArrQ/Desktop/ToolDemo/ArrQTool/ArrQTool/Tools(%E5%B7%A5%E5%85%B7)/FMDB(%E6%95%B0%E6%8D%AE%E5%BA%93)/%E5%B1%95%E7%A4%BA/showFMDBViewController.m"
+                  timestampString = "539260023.884694"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__37-[showFMDBViewController getXingXing]_block_invoke_2"
+                  moduleName = "ArrQTool"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ArrQ/Desktop/ToolDemo/ArrQTool/ArrQTool/Tools(%E5%B7%A5%E5%85%B7)/FMDB(%E6%95%B0%E6%8D%AE%E5%BA%93)/%E5%B1%95%E7%A4%BA/showFMDBViewController.m"
+                  timestampString = "539260023.887756"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "58">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ArrQTool/Tools(&#x5de5;&#x5177;)/FMDB(&#x6570;&#x636e;&#x5e93;)/&#x5c55;&#x793a;/showFMDBViewController.m"
+            timestampString = "537849700.731799"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "-getXingXing"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

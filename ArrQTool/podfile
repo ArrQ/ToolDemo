@@ -11,5 +11,6 @@ target ‘ArrQTool’ do
   pod 'HMSegmentedControl'
   pod 'IQKeyboardManager'
   pod 'FSCalendar'
+  pod 'FMDB'
 end
 

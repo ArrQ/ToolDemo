@@ -14,6 +14,11 @@
 #import "showzhuzhuangtuViewController.h"
 #import "showzhexian2ViewController.h"
 #import "shunzibaozhiduiziVC.h"
+#import "showdaojishiViewController.h"
+#import "showzhixian1ViewController.h"
+#import "showFMDBViewController.h"
+#import "showArrayVC.h"
+#import "showYanZhengMaVC.h"
 
 @interface AppDelegate ()
 
@@ -27,7 +32,7 @@
     _window.backgroundColor = [UIColor whiteColor];
     
     
-    shunzibaozhiduiziVC *vc = [[shunzibaozhiduiziVC alloc]init];
+    showYanZhengMaVC *vc = [[showYanZhengMaVC alloc]init];
     UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vc];
     
     _window.rootViewController = navi;
