@@ -53,6 +53,9 @@
 		751C5C9A204113EB00B1D694 /* showchengshixuanzeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751C5C99204113EB00B1D694 /* showchengshixuanzeViewController.m */; };
 		751C5CA02041149900B1D694 /* addressData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 751C5C9D2041149900B1D694 /* addressData.plist */; };
 		751C5CA12041149900B1D694 /* AddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 751C5C9F2041149900B1D694 /* AddressPickerView.m */; };
+		751C5CA720411A0100B1D694 /* UICustomDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 751C5CA520411A0000B1D694 /* UICustomDatePicker.m */; };
+		751C5CA820411A0100B1D694 /* UICustomDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 751C5CA620411A0000B1D694 /* UICustomDatePicker.xib */; };
+		751C5CAB20411A2B00B1D694 /* showshijinxuanzeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751C5CAA20411A2B00B1D694 /* showshijinxuanzeViewController.m */; };
 		7532E9F420245A2E00FD6AF2 /* showArrayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7532E9F320245A2E00FD6AF2 /* showArrayVC.m */; };
 		7532E9F82024720200FD6AF2 /* showYanZhengMaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7532E9F72024720200FD6AF2 /* showYanZhengMaVC.m */; };
 		7532E9FE2025413800FD6AF2 /* showTangkuangVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7532E9FD2025413800FD6AF2 /* showTangkuangVC.m */; };
@@ -253,6 +256,11 @@
 		751C5C9D2041149900B1D694 /* addressData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = addressData.plist; sourceTree = "<group>"; };
 		751C5C9E2041149900B1D694 /* AddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressPickerView.h; sourceTree = "<group>"; };
 		751C5C9F2041149900B1D694 /* AddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressPickerView.m; sourceTree = "<group>"; };
+		751C5CA420411A0000B1D694 /* UICustomDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICustomDatePicker.h; sourceTree = "<group>"; };
+		751C5CA520411A0000B1D694 /* UICustomDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICustomDatePicker.m; sourceTree = "<group>"; };
+		751C5CA620411A0000B1D694 /* UICustomDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UICustomDatePicker.xib; sourceTree = "<group>"; };
+		751C5CA920411A2B00B1D694 /* showshijinxuanzeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = showshijinxuanzeViewController.h; sourceTree = "<group>"; };
+		751C5CAA20411A2B00B1D694 /* showshijinxuanzeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = showshijinxuanzeViewController.m; sourceTree = "<group>"; };
 		7532E9F220245A2E00FD6AF2 /* showArrayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = showArrayVC.h; sourceTree = "<group>"; };
 		7532E9F320245A2E00FD6AF2 /* showArrayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = showArrayVC.m; sourceTree = "<group>"; };
 		7532E9F62024720200FD6AF2 /* showYanZhengMaVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = showYanZhengMaVC.h; sourceTree = "<group>"; };
@@ -754,6 +762,26 @@
 			path = AddressManager;
 			sourceTree = "<group>";
 		};
+		751C5CA2204119D300B1D694 /* 时间选择弹框 */ = {
+			isa = PBXGroup;
+			children = (
+				751C5CA320411A0000B1D694 /* 时间选择器种类1 */,
+				751C5CA920411A2B00B1D694 /* showshijinxuanzeViewController.h */,
+				751C5CAA20411A2B00B1D694 /* showshijinxuanzeViewController.m */,
+			);
+			path = "时间选择弹框";
+			sourceTree = "<group>";
+		};
+		751C5CA320411A0000B1D694 /* 时间选择器种类1 */ = {
+			isa = PBXGroup;
+			children = (
+				751C5CA420411A0000B1D694 /* UICustomDatePicker.h */,
+				751C5CA520411A0000B1D694 /* UICustomDatePicker.m */,
+				751C5CA620411A0000B1D694 /* UICustomDatePicker.xib */,
+			);
+			path = "时间选择器种类1";
+			sourceTree = "<group>";
+		};
 		7532E9EE202459EA00FD6AF2 /* 数组字符串 */ = {
 			isa = PBXGroup;
 			children = (
@@ -784,6 +812,7 @@
 		7532E9FA2025410900FD6AF2 /* 弹框提示区 */ = {
 			isa = PBXGroup;
 			children = (
+				751C5CA2204119D300B1D694 /* 时间选择弹框 */,
 				751C5C97204113C600B1D694 /* 城市选择弹框 */,
 				751C5C8D2040FCAF00B1D694 /* 性别选择弹框 */,
 				751B5EA4203E8CC4000F31FE /* 山下拉列表 */,
@@ -1553,6 +1582,7 @@
 				75701A081FDEC81C00374E9A /* LaunchScreen.storyboard in Resources */,
 				75701B571FDEDC3700374E9A /* RootViewController.xib in Resources */,
 				7518D2631FF550780008871F /* gdsyxw_yxgz.html in Resources */,
+				751C5CA820411A0100B1D694 /* UICustomDatePicker.xib in Resources */,
 				75701A051FDEC81C00374E9A /* Assets.xcassets in Resources */,
 				751C5CA02041149900B1D694 /* addressData.plist in Resources */,
 				75A3A8F8200A4C1A00493A34 /* xingxingzuohao.db in Resources */,
@@ -1652,6 +1682,7 @@
 				7532EA5420254C0600FD6AF2 /* duoXuanCell.m in Sources */,
 				754549CB1FFB8EE100A5B3CD /* HMzsHeaderView.m in Sources */,
 				7532E9F420245A2E00FD6AF2 /* showArrayVC.m in Sources */,
+				751C5CAB20411A2B00B1D694 /* showshijinxuanzeViewController.m in Sources */,
 				75701B701FDEDD7500374E9A /* JLChartPointItem.m in Sources */,
 				7518D2731FF551F20008871F /* UICountingLabel.m in Sources */,
 				7532EA31202548E600FD6AF2 /* XSInfoView.m in Sources */,
@@ -1680,6 +1711,7 @@
 				7518D2531FF54FE40008871F /* HelpViewController.m in Sources */,
 				7532EA21202546B400FD6AF2 /* WuXingSelectListTableViewCell.m in Sources */,
 				757019FD1FDEC81C00374E9A /* AppDelegate.m in Sources */,
+				751C5CA720411A0100B1D694 /* UICustomDatePicker.m in Sources */,
 				7532EA27202546B400FD6AF2 /* ZuoHaoTableViewCell.m in Sources */,
 				7532EA4520254B2200FD6AF2 /* DanXuanCellView.m in Sources */,
 				7518D29B1FF55B220008871F /* DVXAxisView.m in Sources */,

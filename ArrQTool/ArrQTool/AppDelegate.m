@@ -24,6 +24,7 @@
 #import "showxigbieOneViewController.h"// 性别选择
 
 #import "showchengshixuanzeViewController.h"// 城市选择
+#import "showshijinxuanzeViewController.h"//日期选择
 
 @interface AppDelegate ()
 
@@ -37,7 +38,7 @@
     _window.backgroundColor = [UIColor whiteColor];
     
     
-    showchengshixuanzeViewController *vc = [[showchengshixuanzeViewController alloc]init];
+    showshijinxuanzeViewController *vc = [[showshijinxuanzeViewController alloc]init];
     UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vc];
     
     _window.rootViewController = navi;
