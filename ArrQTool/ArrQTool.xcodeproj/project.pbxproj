@@ -56,6 +56,9 @@
 		751C5CA720411A0100B1D694 /* UICustomDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 751C5CA520411A0000B1D694 /* UICustomDatePicker.m */; };
 		751C5CA820411A0100B1D694 /* UICustomDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 751C5CA620411A0000B1D694 /* UICustomDatePicker.xib */; };
 		751C5CAB20411A2B00B1D694 /* showshijinxuanzeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751C5CAA20411A2B00B1D694 /* showshijinxuanzeViewController.m */; };
+		751C5CB02041362D00B1D694 /* SelectPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 751C5CAF2041362D00B1D694 /* SelectPhotoManager.m */; };
+		751C5CB32041364200B1D694 /* showxiangceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751C5CB22041364200B1D694 /* showxiangceViewController.m */; };
+		751C5CB5204136BB00B1D694 /* xiangce.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751C5CB4204136BB00B1D694 /* xiangce.xcassets */; };
 		7532E9F420245A2E00FD6AF2 /* showArrayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7532E9F320245A2E00FD6AF2 /* showArrayVC.m */; };
 		7532E9F82024720200FD6AF2 /* showYanZhengMaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7532E9F72024720200FD6AF2 /* showYanZhengMaVC.m */; };
 		7532E9FE2025413800FD6AF2 /* showTangkuangVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7532E9FD2025413800FD6AF2 /* showTangkuangVC.m */; };
@@ -261,6 +264,11 @@
 		751C5CA620411A0000B1D694 /* UICustomDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UICustomDatePicker.xib; sourceTree = "<group>"; };
 		751C5CA920411A2B00B1D694 /* showshijinxuanzeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = showshijinxuanzeViewController.h; sourceTree = "<group>"; };
 		751C5CAA20411A2B00B1D694 /* showshijinxuanzeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = showshijinxuanzeViewController.m; sourceTree = "<group>"; };
+		751C5CAE2041362D00B1D694 /* SelectPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPhotoManager.h; sourceTree = "<group>"; };
+		751C5CAF2041362D00B1D694 /* SelectPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPhotoManager.m; sourceTree = "<group>"; };
+		751C5CB12041364200B1D694 /* showxiangceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = showxiangceViewController.h; sourceTree = "<group>"; };
+		751C5CB22041364200B1D694 /* showxiangceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = showxiangceViewController.m; sourceTree = "<group>"; };
+		751C5CB4204136BB00B1D694 /* xiangce.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = xiangce.xcassets; sourceTree = "<group>"; };
 		7532E9F220245A2E00FD6AF2 /* showArrayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = showArrayVC.h; sourceTree = "<group>"; };
 		7532E9F320245A2E00FD6AF2 /* showArrayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = showArrayVC.m; sourceTree = "<group>"; };
 		7532E9F62024720200FD6AF2 /* showYanZhengMaVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = showYanZhengMaVC.h; sourceTree = "<group>"; };
@@ -782,6 +790,26 @@
 			path = "时间选择器种类1";
 			sourceTree = "<group>";
 		};
+		751C5CAC204135FC00B1D694 /* 相册选择弹框 */ = {
+			isa = PBXGroup;
+			children = (
+				751C5CAD2041362D00B1D694 /* 相册选择种类1 */,
+				751C5CB12041364200B1D694 /* showxiangceViewController.h */,
+				751C5CB22041364200B1D694 /* showxiangceViewController.m */,
+			);
+			path = "相册选择弹框";
+			sourceTree = "<group>";
+		};
+		751C5CAD2041362D00B1D694 /* 相册选择种类1 */ = {
+			isa = PBXGroup;
+			children = (
+				751C5CAE2041362D00B1D694 /* SelectPhotoManager.h */,
+				751C5CAF2041362D00B1D694 /* SelectPhotoManager.m */,
+				751C5CB4204136BB00B1D694 /* xiangce.xcassets */,
+			);
+			path = "相册选择种类1";
+			sourceTree = "<group>";
+		};
 		7532E9EE202459EA00FD6AF2 /* 数组字符串 */ = {
 			isa = PBXGroup;
 			children = (
@@ -812,6 +840,7 @@
 		7532E9FA2025410900FD6AF2 /* 弹框提示区 */ = {
 			isa = PBXGroup;
 			children = (
+				751C5CAC204135FC00B1D694 /* 相册选择弹框 */,
 				751C5CA2204119D300B1D694 /* 时间选择弹框 */,
 				751C5C97204113C600B1D694 /* 城市选择弹框 */,
 				751C5C8D2040FCAF00B1D694 /* 性别选择弹框 */,
@@ -1567,6 +1596,7 @@
 				7518D2601FF550780008871F /* bjssc_yxgz.html in Resources */,
 				75701A631FDED13B00374E9A /* show.xcassets in Resources */,
 				75701AB61FDED7AC00374E9A /* headerList.plist in Resources */,
+				751C5CB5204136BB00B1D694 /* xiangce.xcassets in Resources */,
 				7518D2611FF550780008871F /* cqssc_yxgz.html in Resources */,
 				75701A8D1FDED59400374E9A /* show.xcassets in Resources */,
 				75701A2E1FDECA6E00374E9A /* 无线轮播图片资源.xcassets in Resources */,
@@ -1676,6 +1706,7 @@
 				75701A371FDECAFD00374E9A /* wuxialunboViewController.m in Sources */,
 				751B5EA7203E8CF8000F31FE /* showUpDownVC.m in Sources */,
 				7532EA20202546B400FD6AF2 /* WuXingSelectListModel.m in Sources */,
+				751C5CB32041364200B1D694 /* showxiangceViewController.m in Sources */,
 				75701A001FDEC81C00374E9A /* ViewController.m in Sources */,
 				75701ABA1FDED7AC00374E9A /* DDTableViewHeader.m in Sources */,
 				751C5C952040FD0600B1D694 /* showxigbieOneViewController.m in Sources */,
@@ -1738,6 +1769,7 @@
 				751B5EAA203EA421000F31FE /* dopDownVC.m in Sources */,
 				7532EA22202546B400FD6AF2 /* WuXingSelectListView.m in Sources */,
 				75701ABB1FDED7AC00374E9A /* MoreTableViewCell.m in Sources */,
+				751C5CB02041362D00B1D694 /* SelectPhotoManager.m in Sources */,
 				7518D28C1FF553210008871F /* Voice.m in Sources */,
 				75701A331FDECAB700374E9A /* PicturePlayer.m in Sources */,
 				7532EA4D20254B8600FD6AF2 /* showDanXuanVC.m in Sources */,
