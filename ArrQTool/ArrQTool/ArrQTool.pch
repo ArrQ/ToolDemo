@@ -17,10 +17,13 @@
 #import <MJRefresh/MJRefresh.h>
 #import <Masonry.h>
 #import <WebKit/WebKit.h>
-
+#import "DXPopover.h"
 
 //      *********    .h     *********
 
 #import "Header.h"
+#import "ColorWithOther.h"
+#import "XSInfoView.h"
+
 
 #endif /* ArrQTool_pch */

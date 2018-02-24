@@ -12,5 +12,6 @@ target ‘ArrQTool’ do
   pod 'IQKeyboardManager'
   pod 'FSCalendar'
   pod 'FMDB'
+  pod 'DXPopover'
 end
 

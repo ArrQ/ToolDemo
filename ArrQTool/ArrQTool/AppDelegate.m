@@ -14,11 +14,16 @@
 #import "showzhuzhuangtuViewController.h"
 #import "showzhexian2ViewController.h"
 #import "shunzibaozhiduiziVC.h"
-#import "showdaojishiViewController.h"
+#import "showdaojishiViewController.h"// 倒计时
 #import "showzhixian1ViewController.h"
 #import "showFMDBViewController.h"
 #import "showArrayVC.h"
 #import "showYanZhengMaVC.h"
+#import "showDanXuanVC.h"
+#import "showUpDownVC.h"// 上下拉 列表
+#import "showxigbieOneViewController.h"// 性别选择
+
+#import "showchengshixuanzeViewController.h"// 城市选择
 
 @interface AppDelegate ()
 
@@ -32,7 +37,7 @@
     _window.backgroundColor = [UIColor whiteColor];
     
     
-    showYanZhengMaVC *vc = [[showYanZhengMaVC alloc]init];
+    showchengshixuanzeViewController *vc = [[showchengshixuanzeViewController alloc]init];
     UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vc];
     
     _window.rootViewController = navi;

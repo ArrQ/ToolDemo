@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '88F2550474523BB62F63ADDC758C7DB7'
+               BlueprintIdentifier = 'E1FB677DC2C25646AD2B4D00B3BED0FB'
                BlueprintName = 'Pods-ArrQTool'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-ArrQTool.a'>

@@ -8,8 +8,8 @@
 
 #import "showViewController.h"
 #import "TitleScrollView.h"
-#define SCREEN_WIDTH   [[UIScreen mainScreen] bounds].size.width
-#define SCREEN_HEIGHT  [[UIScreen mainScreen] bounds].size.height
+//#define SCREEN_WIDTH   [[UIScreen mainScreen] bounds].size.width
+//#define SCREEN_HEIGHT  [[UIScreen mainScreen] bounds].size.height
 @interface showViewController ()<TitleViewScrollDelegate,UICollectionViewDelegate,UICollectionViewDataSource>
 @property(nonatomic,strong) TitleScrollView *titleview;
 

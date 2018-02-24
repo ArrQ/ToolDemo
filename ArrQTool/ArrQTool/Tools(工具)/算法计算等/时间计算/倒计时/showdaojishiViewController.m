@@ -20,7 +20,7 @@
     
 }
 @property(nonatomic,strong) UILabel *minLabel;
-@property(nonatomic,strong) UILabel *fangFa2Label;
+@property(nonatomic,strong) UILabel *fangFa2Label;// 方法2
 
 
 @end
@@ -33,8 +33,8 @@
     [self customUI];
 
     
-    NSString *timestr = [self getTimeStr:@"2018-01-02 15:10:45" withFormate:@"yyyy-MM-dd HH:mm"];
-    [self getTimeStart:timestr];
+    NSString *timestr = [self getTimeStr:@"2018-03-02 15:10:45" withFormate:@"yyyy-MM-dd HH:mm"];
+    [self getTimeStart:timestr];// 方法 1
     
     
 }
@@ -75,7 +75,7 @@
     NSDateFormatter * formater = [[NSDateFormatter alloc]init];
     formater.timeZone = [NSTimeZone timeZoneWithName:@"shanghai"];
     [formater setDateFormat:@"yyyy/MM/dd HH:mm:ss"];
-    NSDate * getDate = [formater dateFromString:@"2018/02/01 14:12:12"];
+    NSDate * getDate = [formater dateFromString:@"2018/03/01 14:12:12"];
     NSTimeInterval b = [getDate timeIntervalSince1970];
     NSTimeInterval a = [[NSDate new] timeIntervalSince1970];//当前秒
     NSInteger spaTime = b-a;//相差多少秒,15秒执行一次上一个刷新请求数据方法
