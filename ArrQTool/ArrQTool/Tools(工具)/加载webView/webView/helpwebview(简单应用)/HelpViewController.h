@@ -11,5 +11,6 @@
 @interface HelpViewController : UIViewController
 
 @property(nonatomic,strong) NSString *typeStr;
+@property(nonatomic,strong) NSString *typeID;// 1:本地html,2:html代码,3：url
 
 @end

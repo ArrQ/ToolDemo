@@ -96,7 +96,7 @@
     
         NSString *allTime;
     
-    NSString  *timeStr = @"15189898945";// 获取的 时间戳的 时间戳
+        NSString  *timeStr = @"15189898945";// 获取的 时间戳的 时间戳
 
     
         NSInteger new = [timeStr integerValue] - timeInterval;
