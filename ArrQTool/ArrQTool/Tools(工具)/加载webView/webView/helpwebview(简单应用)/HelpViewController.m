@@ -9,6 +9,8 @@
 #import "HelpViewController.h"
 #import <WebKit/WebKit.h>
 
+#define naviBackImg [UIImage imageNamed:@"return"]
+
 @interface HelpViewController ()<WKNavigationDelegate,WKUIDelegate>
 @property(nonatomic,strong) WKWebView *wkWebView;
 @property (nonatomic,strong) UIProgressView *progress;
@@ -95,10 +97,72 @@
     [super viewDidLoad];
     
     
+    self.view.backgroundColor = [UIColor colorWithRed:239/255.0 green:239/255.0 blue:239/255.0 alpha:1];
+    [self customNavi];
+    [self customTableview];
     
 
 
 }
+
+
+# pragma mark ---  适应 高度 ---
+- (void)customTableview{
+    
+    if (@available(iOS 11.0, *)) {
+        
+        [[UIScrollView appearance] setContentInsetAdjustmentBehavior:UIScrollViewContentInsetAdjustmentNever];
+        
+        
+    } else {
+        
+        self.automaticallyAdjustsScrollViewInsets = NO;
+        
+    }
+    
+    
+}
+
+
+# pragma mark --- 加返回按钮 ---
+- (void)customNavi{
+    
+    
+    
+    CGFloat btnWidth = 30,btnHeight = 44,imgMagin = 10;
+    
+    
+    UIView *view_left = [[UIView alloc] initWithFrame:CGRectMake(0, 0, btnWidth, btnHeight)];
+    
+    UIButton *button_left = [UIButton buttonWithType:UIButtonTypeCustom];
+    button_left.frame = CGRectMake(0, 0, btnWidth, btnHeight);
+    button_left.imageEdgeInsets = UIEdgeInsetsMake(0, -imgMagin, 0, 0);
+    [button_left addTarget:self action:@selector(leftBtn:) forControlEvents:UIControlEventTouchUpInside];
+    [button_left setImage:naviBackImg forState:0];
+    [view_left addSubview:button_left];
+    UIBarButtonItem *leftItem = [[UIBarButtonItem alloc] initWithCustomView:view_left];
+    
+    self.navigationItem.leftBarButtonItem = leftItem;
+    
+}
+
+- (void)leftBtn:(UIButton *)sender{
+    
+    
+    if ([_wkWebView canGoBack]) {
+        [self.wkWebView goBack];
+        
+    }else{
+        [self.view resignFirstResponder];
+        [self.navigationController popViewControllerAnimated:YES];
+    }
+    
+}
+
+
+
+
+
 
 #pragma mark 加载进度条
 - (UIProgressView *)progress

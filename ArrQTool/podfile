@@ -13,5 +13,7 @@ target ‘ArrQTool’ do
   pod 'FSCalendar'
   pod 'FMDB'
   pod 'DXPopover'
+  pod 'TFHpple'
+
 end
 
