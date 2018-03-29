@@ -73,7 +73,7 @@ _Pragma("clang diagnostic pop")\
 #define UserDefaults [NSUserDefaults standardUserDefaults]
 
 //RGB颜色
-#define RGB_Color(R,G,B,A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A];
+#define RGB_Color(R,G,B,A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
 
 
 

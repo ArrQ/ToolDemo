@@ -27,6 +27,8 @@
 #import "showshijinxuanzeViewController.h"//日期选择
 #import "showxiangceViewController.h"// 相册选择
 
+#import "showCollectionVC.h"// collectionview  实现
+
 @interface AppDelegate ()
 
 @end
@@ -39,7 +41,7 @@
     _window.backgroundColor = [UIColor whiteColor];
     
     
-    showxiangceViewController *vc = [[showxiangceViewController alloc]init];
+    showCollectionVC *vc = [[showCollectionVC alloc]init];
     UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vc];
     
     _window.rootViewController = navi;
@@ -51,7 +53,9 @@
     [UINavigationBar appearance].translucent = NO;
     //设置 导航栏字体和颜色
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName:[UIFont fontWithName:@"Helvetica-Bold" size:21]}];
-    [_window makeKeyAndVisible];    return YES;
+    [_window makeKeyAndVisible];
+    
+    return YES;
 }
 
 

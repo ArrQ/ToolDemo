@@ -101,6 +101,8 @@
 		754549F61FFB901500A5B3CD /* PXLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 754549EE1FFB901500A5B3CD /* PXLineChartView.m */; };
 		754549F71FFB901500A5B3CD /* PXXview.m in Sources */ = {isa = PBXBuildFile; fileRef = 754549F01FFB901500A5B3CD /* PXXview.m */; };
 		754549F81FFB901500A5B3CD /* PXYview.m in Sources */ = {isa = PBXBuildFile; fileRef = 754549F21FFB901500A5B3CD /* PXYview.m */; };
+		75630C1C206C855B007251B3 /* showCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75630C1B206C855B007251B3 /* showCollectionVC.m */; };
+		75630C20206C87CA007251B3 /* showOneCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75630C1F206C87CA007251B3 /* showOneCollectionViewCell.m */; };
 		75630DEC1FE8AC2A008C4998 /* UILabel+LableExtentsion.m in Sources */ = {isa = PBXBuildFile; fileRef = 75630DEB1FE8AC2A008C4998 /* UILabel+LableExtentsion.m */; };
 		75630DEF1FE8AD07008C4998 /* LableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75630DEE1FE8AD07008C4998 /* LableViewController.m */; };
 		75630DF41FE8DD41008C4998 /* bullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75630DF31FE8DD41008C4998 /* bullViewController.m */; };
@@ -162,6 +164,13 @@
 		75A3A8F5200A0B5E00493A34 /* ShangPinData.db in Resources */ = {isa = PBXBuildFile; fileRef = 75A3A8F4200A0B5E00493A34 /* ShangPinData.db */; };
 		75A3A8F8200A4C1A00493A34 /* xingxingzuohao.db in Resources */ = {isa = PBXBuildFile; fileRef = 75A3A8F7200A4C1A00493A34 /* xingxingzuohao.db */; };
 		75A3A8FB200A4C6500493A34 /* XingXingzuohaoFMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A3A8FA200A4C6500493A34 /* XingXingzuohaoFMDBManager.m */; };
+		75F39FE1206A0E2400FA8290 /* CommonFieldTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F39FDE206A0E2400FA8290 /* CommonFieldTextView.m */; };
+		75F39FE2206A0E2400FA8290 /* CommonYanZhengMaFieldTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F39FE0206A0E2400FA8290 /* CommonYanZhengMaFieldTextView.m */; };
+		75F39FEE206A0EA700FA8290 /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F39FE5206A0EA700FA8290 /* RegisterVC.m */; };
+		75F39FEF206A0EA700FA8290 /* RegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F39FE8206A0EA700FA8290 /* RegisterView.m */; };
+		75F39FF8206A0EB800FA8290 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F39FF4206A0EB800FA8290 /* LoginVC.m */; };
+		75F39FF9206A0EB800FA8290 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F39FF7206A0EB800FA8290 /* LoginView.m */; };
+		75F39FFB206A111F00FA8290 /* LoginAndRegister.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F39FFA206A111F00FA8290 /* LoginAndRegister.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -359,6 +368,10 @@
 		754549F01FFB901500A5B3CD /* PXXview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXXview.m; sourceTree = "<group>"; };
 		754549F11FFB901500A5B3CD /* PXYview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXYview.h; sourceTree = "<group>"; };
 		754549F21FFB901500A5B3CD /* PXYview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXYview.m; sourceTree = "<group>"; };
+		75630C1A206C855B007251B3 /* showCollectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = showCollectionVC.h; sourceTree = "<group>"; };
+		75630C1B206C855B007251B3 /* showCollectionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = showCollectionVC.m; sourceTree = "<group>"; };
+		75630C1E206C87CA007251B3 /* showOneCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = showOneCollectionViewCell.h; sourceTree = "<group>"; };
+		75630C1F206C87CA007251B3 /* showOneCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = showOneCollectionViewCell.m; sourceTree = "<group>"; };
 		75630DEA1FE8AC2A008C4998 /* UILabel+LableExtentsion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+LableExtentsion.h"; sourceTree = "<group>"; };
 		75630DEB1FE8AC2A008C4998 /* UILabel+LableExtentsion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LableExtentsion.m"; sourceTree = "<group>"; };
 		75630DED1FE8AD07008C4998 /* LableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LableViewController.h; sourceTree = "<group>"; };
@@ -471,6 +484,19 @@
 		75A3A8F7200A4C1A00493A34 /* xingxingzuohao.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = xingxingzuohao.db; sourceTree = "<group>"; };
 		75A3A8F9200A4C6500493A34 /* XingXingzuohaoFMDBManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XingXingzuohaoFMDBManager.h; sourceTree = "<group>"; };
 		75A3A8FA200A4C6500493A34 /* XingXingzuohaoFMDBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XingXingzuohaoFMDBManager.m; sourceTree = "<group>"; };
+		75F39FDD206A0E2400FA8290 /* CommonFieldTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFieldTextView.h; sourceTree = "<group>"; };
+		75F39FDE206A0E2400FA8290 /* CommonFieldTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonFieldTextView.m; sourceTree = "<group>"; };
+		75F39FDF206A0E2400FA8290 /* CommonYanZhengMaFieldTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonYanZhengMaFieldTextView.h; sourceTree = "<group>"; };
+		75F39FE0206A0E2400FA8290 /* CommonYanZhengMaFieldTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonYanZhengMaFieldTextView.m; sourceTree = "<group>"; };
+		75F39FE4206A0EA700FA8290 /* RegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
+		75F39FE5206A0EA700FA8290 /* RegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
+		75F39FE7206A0EA700FA8290 /* RegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterView.h; sourceTree = "<group>"; };
+		75F39FE8206A0EA700FA8290 /* RegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterView.m; sourceTree = "<group>"; };
+		75F39FF3206A0EB800FA8290 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		75F39FF4206A0EB800FA8290 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		75F39FF6206A0EB800FA8290 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		75F39FF7206A0EB800FA8290 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		75F39FFA206A111F00FA8290 /* LoginAndRegister.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LoginAndRegister.xcassets; sourceTree = "<group>"; };
 		FB9AC0A39F70795457F83C18 /* libPods-ArrQTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArrQTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -1126,6 +1152,25 @@
 			path = LineChart;
 			sourceTree = "<group>";
 		};
+		75630C19206C852D007251B3 /* collectionView(工具) */ = {
+			isa = PBXGroup;
+			children = (
+				75630C1A206C855B007251B3 /* showCollectionVC.h */,
+				75630C1B206C855B007251B3 /* showCollectionVC.m */,
+				75630C1D206C8712007251B3 /* view */,
+			);
+			path = "collectionView(工具)";
+			sourceTree = "<group>";
+		};
+		75630C1D206C8712007251B3 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				75630C1E206C87CA007251B3 /* showOneCollectionViewCell.h */,
+				75630C1F206C87CA007251B3 /* showOneCollectionViewCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		75630DE91FE8ABBB008C4998 /* category */ = {
 			isa = PBXGroup;
 			children = (
@@ -1224,6 +1269,8 @@
 		75701A2F1FDECAB700374E9A /* Tools(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				75630C19206C852D007251B3 /* collectionView(工具) */,
+				75F39FD8206A0D4900FA8290 /* 登录注册 */,
 				7514A22C204CDB0A00490ED2 /* 数据解析 */,
 				751C5C5F203FAB1E00B1D694 /* 小动画 */,
 				7532EA712027E4A300FD6AF2 /* 三方登录分享 */,
@@ -1524,6 +1571,82 @@
 			path = "数据库";
 			sourceTree = "<group>";
 		};
+		75F39FD8206A0D4900FA8290 /* 登录注册 */ = {
+			isa = PBXGroup;
+			children = (
+				75F39FDC206A0E2400FA8290 /* 输入框 */,
+				75F39FDA206A0DC500FA8290 /* 注册 */,
+				75F39FD9206A0DBA00FA8290 /* 登录 */,
+				75F39FFA206A111F00FA8290 /* LoginAndRegister.xcassets */,
+			);
+			path = "登录注册";
+			sourceTree = "<group>";
+		};
+		75F39FD9206A0DBA00FA8290 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				75F39FF2206A0EB800FA8290 /* 登录的副本 */,
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		75F39FDA206A0DC500FA8290 /* 注册 */ = {
+			isa = PBXGroup;
+			children = (
+				75F39FE3206A0EA700FA8290 /* 注册的副本 */,
+			);
+			path = "注册";
+			sourceTree = "<group>";
+		};
+		75F39FDC206A0E2400FA8290 /* 输入框 */ = {
+			isa = PBXGroup;
+			children = (
+				75F39FDD206A0E2400FA8290 /* CommonFieldTextView.h */,
+				75F39FDE206A0E2400FA8290 /* CommonFieldTextView.m */,
+				75F39FDF206A0E2400FA8290 /* CommonYanZhengMaFieldTextView.h */,
+				75F39FE0206A0E2400FA8290 /* CommonYanZhengMaFieldTextView.m */,
+			);
+			path = "输入框";
+			sourceTree = "<group>";
+		};
+		75F39FE3206A0EA700FA8290 /* 注册的副本 */ = {
+			isa = PBXGroup;
+			children = (
+				75F39FE4206A0EA700FA8290 /* RegisterVC.h */,
+				75F39FE5206A0EA700FA8290 /* RegisterVC.m */,
+				75F39FE6206A0EA700FA8290 /* view */,
+			);
+			path = "注册的副本";
+			sourceTree = "<group>";
+		};
+		75F39FE6206A0EA700FA8290 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				75F39FE7206A0EA700FA8290 /* RegisterView.h */,
+				75F39FE8206A0EA700FA8290 /* RegisterView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		75F39FF2206A0EB800FA8290 /* 登录的副本 */ = {
+			isa = PBXGroup;
+			children = (
+				75F39FF3206A0EB800FA8290 /* LoginVC.h */,
+				75F39FF4206A0EB800FA8290 /* LoginVC.m */,
+				75F39FF5206A0EB800FA8290 /* View */,
+			);
+			path = "登录的副本";
+			sourceTree = "<group>";
+		};
+		75F39FF5206A0EB800FA8290 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75F39FF6206A0EB800FA8290 /* LoginView.h */,
+				75F39FF7206A0EB800FA8290 /* LoginView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1643,6 +1766,7 @@
 				75701A8D1FDED59400374E9A /* show.xcassets in Resources */,
 				75701A2E1FDECA6E00374E9A /* 无线轮播图片资源.xcassets in Resources */,
 				75701A571FDECEDA00374E9A /* 选中图标.xcassets in Resources */,
+				75F39FFB206A111F00FA8290 /* LoginAndRegister.xcassets in Resources */,
 				7518D2671FF550780008871F /* xyft_yxgz.html in Resources */,
 				75701B7B1FDEDDC700374E9A /* tubiao.xcassets in Resources */,
 				7518D25F1FF550780008871F /* bjpk_yxgz.html in Resources */,
@@ -1744,6 +1868,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7506B9271FDF949D00DCD6D2 /* allview.m in Sources */,
+				75F39FE2206A0E2400FA8290 /* CommonYanZhengMaFieldTextView.m in Sources */,
 				7532EA2A202546B400FD6AF2 /* YuLanModel.m in Sources */,
 				754549C61FFB4A1B00A5B3CD /* showdaojishiViewController.m in Sources */,
 				75701A371FDECAFD00374E9A /* wuxialunboViewController.m in Sources */,
@@ -1774,6 +1899,7 @@
 				7532E9FE2025413800FD6AF2 /* showTangkuangVC.m in Sources */,
 				7518D29F1FF55B450008871F /* showzhexian2ViewController.m in Sources */,
 				7518D2321FF341210008871F /* BaseViewController.m in Sources */,
+				75630C20206C87CA007251B3 /* showOneCollectionViewCell.m in Sources */,
 				7518D28B1FF553210008871F /* UIViewController+AlertView.m in Sources */,
 				754549F71FFB901500A5B3CD /* PXXview.m in Sources */,
 				7518D2861FF553210008871F /* NSString+Category.m in Sources */,
@@ -1783,6 +1909,8 @@
 				7532E9F82024720200FD6AF2 /* showYanZhengMaVC.m in Sources */,
 				75A3A8ED200A036D00493A34 /* YYFMDBManager.m in Sources */,
 				7518D26C1FF551E80008871F /* showzhuzhuangtuViewController.m in Sources */,
+				75630C1C206C855B007251B3 /* showCollectionVC.m in Sources */,
+				75F39FEF206A0EA700FA8290 /* RegisterView.m in Sources */,
 				7518D2531FF54FE40008871F /* HelpViewController.m in Sources */,
 				7532EA21202546B400FD6AF2 /* WuXingSelectListTableViewCell.m in Sources */,
 				757019FD1FDEC81C00374E9A /* AppDelegate.m in Sources */,
@@ -1799,6 +1927,7 @@
 				75701B541FDEDC3700374E9A /* DKSHTMLController.m in Sources */,
 				75701AB81FDED7AC00374E9A /* DDSectionModel.m in Sources */,
 				754549C21FFB312B00A5B3CD /* shunzibaozhiduiziVC.m in Sources */,
+				75F39FF9206A0EB800FA8290 /* LoginView.m in Sources */,
 				751C5CA12041149900B1D694 /* AddressPickerView.m in Sources */,
 				75701A771FDED32200374E9A /* jiantingViewController.m in Sources */,
 				7532EA702027E48100FD6AF2 /* showLoginOutAPPVC.m in Sources */,
@@ -1809,6 +1938,7 @@
 				75701A5D1FDED07B00374E9A /* ManageColorAttributed.m in Sources */,
 				7532EA4620254B2200FD6AF2 /* DanxuanCollectionViewCell.m in Sources */,
 				75701AB51FDED7AC00374E9A /* DemoTableViewController.m in Sources */,
+				75F39FEE206A0EA700FA8290 /* RegisterVC.m in Sources */,
 				75A3A8F3200A057100493A34 /* showFMDBViewController.m in Sources */,
 				751B5EAA203EA421000F31FE /* dopDownVC.m in Sources */,
 				7532EA22202546B400FD6AF2 /* WuXingSelectListView.m in Sources */,
@@ -1827,9 +1957,11 @@
 				7518D2891FF553210008871F /* UITextField+Category.m in Sources */,
 				754549CE1FFB8EF500A5B3CD /* showzhixian1ViewController.m in Sources */,
 				7518D2721FF551F20008871F /* PTHistogramView.m in Sources */,
+				75F39FE1206A0E2400FA8290 /* CommonFieldTextView.m in Sources */,
 				7514A231204CDB7800490ED2 /* XMLReader.m in Sources */,
 				75701B761FDEDD7500374E9A /* JLSingleLineChart.m in Sources */,
 				7532EA4A20254B2200FD6AF2 /* DuoXuanShuZuView.m in Sources */,
+				75F39FF8206A0EB800FA8290 /* LoginVC.m in Sources */,
 				75701B731FDEDD7500374E9A /* JLLineChartData.m in Sources */,
 				7532EA352025494000FD6AF2 /* MysizeAuto.m in Sources */,
 				75701B561FDEDC3700374E9A /* RootViewController.m in Sources */,
