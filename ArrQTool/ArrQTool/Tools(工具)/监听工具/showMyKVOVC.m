@@ -52,6 +52,11 @@
 //  selector  形式
     [_kvoCtrl observe:self keyPath:@"index" options:0 action:@selector(getKvo)];
 
+    
+    
+//    [_kvoCtrl observe:_person keyPath:@"age" options:0 action:@selector(getKvo)];
+
+    
    
 ////    block  形式
 //    __weak typeof (self) weakSelf = self;
