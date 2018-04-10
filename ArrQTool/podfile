@@ -14,6 +14,7 @@ target ‘ArrQTool’ do
   pod 'FMDB'
   pod 'DXPopover'
   pod 'TFHpple'
+  pod 'KVOController'
 
 end
 

@@ -29,6 +29,9 @@
 
 #import "showCollectionVC.h"// collectionview  实现
 
+#import "showMyKVOVC.h"//监听 kvo
+
+
 @interface AppDelegate ()
 
 @end
@@ -41,7 +44,7 @@
     _window.backgroundColor = [UIColor whiteColor];
     
     
-    showCollectionVC *vc = [[showCollectionVC alloc]init];
+    showMyKVOVC *vc = [[showMyKVOVC alloc]init];
     UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:vc];
     
     _window.rootViewController = navi;
@@ -53,10 +56,28 @@
     [UINavigationBar appearance].translucent = NO;
     //设置 导航栏字体和颜色
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName:[UIFont fontWithName:@"Helvetica-Bold" size:21]}];
+    
+    
+    [self getConfigSubAppDelegate];
+
+    
     [_window makeKeyAndVisible];
+    
+    
     
     return YES;
 }
+
+
+# pragma mark --- 供 子类 使用
+- (void)getConfigSubAppDelegate{
+    
+    
+    
+    
+}
+
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
