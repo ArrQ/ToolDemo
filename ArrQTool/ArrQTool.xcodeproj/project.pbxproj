@@ -48,6 +48,8 @@
 		7518D29F1FF55B450008871F /* showzhexian2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7518D29E1FF55B450008871F /* showzhexian2ViewController.m */; };
 		751B4603207C559A002F087C /* SubAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 751B4602207C559A002F087C /* SubAppDelegate.m */; };
 		751B460A207CB23B002F087C /* showMyKVOVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 751B4609207CB23B002F087C /* showMyKVOVC.m */; };
+		751B460F207D9C69002F087C /* MoreCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 751B460E207D9C69002F087C /* MoreCommon.m */; };
+		751B4612207DA4D3002F087C /* showMoreCommonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 751B4611207DA4D3002F087C /* showMoreCommonVC.m */; };
 		751B5EA7203E8CF8000F31FE /* showUpDownVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 751B5EA6203E8CF8000F31FE /* showUpDownVC.m */; };
 		751B5EAA203EA421000F31FE /* dopDownVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 751B5EA9203EA421000F31FE /* dopDownVC.m */; };
 		751B5EAD203EB43C000F31FE /* xiaLaZiDingYiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 751B5EAC203EB43C000F31FE /* xiaLaZiDingYiVC.m */; };
@@ -265,6 +267,11 @@
 		751B4602207C559A002F087C /* SubAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubAppDelegate.m; sourceTree = "<group>"; };
 		751B4608207CB23B002F087C /* showMyKVOVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = showMyKVOVC.h; sourceTree = "<group>"; };
 		751B4609207CB23B002F087C /* showMyKVOVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = showMyKVOVC.m; sourceTree = "<group>"; };
+		751B460C207D9BE2002F087C /* MoreCommonHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreCommonHeader.h; sourceTree = "<group>"; };
+		751B460D207D9C68002F087C /* MoreCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreCommon.h; sourceTree = "<group>"; };
+		751B460E207D9C69002F087C /* MoreCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreCommon.m; sourceTree = "<group>"; };
+		751B4610207DA4D3002F087C /* showMoreCommonVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = showMoreCommonVC.h; sourceTree = "<group>"; };
+		751B4611207DA4D3002F087C /* showMoreCommonVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = showMoreCommonVC.m; sourceTree = "<group>"; };
 		751B5EA5203E8CF8000F31FE /* showUpDownVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = showUpDownVC.h; sourceTree = "<group>"; };
 		751B5EA6203E8CF8000F31FE /* showUpDownVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = showUpDownVC.m; sourceTree = "<group>"; };
 		751B5EA8203EA421000F31FE /* dopDownVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dopDownVC.h; sourceTree = "<group>"; };
@@ -771,6 +778,18 @@
 				751B4609207CB23B002F087C /* showMyKVOVC.m */,
 			);
 			path = "监听工具";
+			sourceTree = "<group>";
+		};
+		751B460B207D9B9A002F087C /* 头文件的运用 */ = {
+			isa = PBXGroup;
+			children = (
+				751B460C207D9BE2002F087C /* MoreCommonHeader.h */,
+				751B460D207D9C68002F087C /* MoreCommon.h */,
+				751B460E207D9C69002F087C /* MoreCommon.m */,
+				751B4610207DA4D3002F087C /* showMoreCommonVC.h */,
+				751B4611207DA4D3002F087C /* showMoreCommonVC.m */,
+			);
+			path = "头文件的运用";
 			sourceTree = "<group>";
 		};
 		751B5EA4203E8CC4000F31FE /* 山下拉列表 */ = {
@@ -1294,6 +1313,7 @@
 		75701A2F1FDECAB700374E9A /* Tools(工具) */ = {
 			isa = PBXGroup;
 			children = (
+				751B460B207D9B9A002F087C /* 头文件的运用 */,
 				751B4607207CB20F002F087C /* 监听工具 */,
 				75630C19206C852D007251B3 /* collectionView(工具) */,
 				75F39FD8206A0D4900FA8290 /* 登录注册 */,
@@ -1918,6 +1938,7 @@
 				7514A240204CE4D100490ED2 /* showHtmlTitleMore.m in Sources */,
 				7506B9281FDF949D00DCD6D2 /* showxuanzhuangViewController.m in Sources */,
 				75701A0B1FDEC81C00374E9A /* main.m in Sources */,
+				751B4612207DA4D3002F087C /* showMoreCommonVC.m in Sources */,
 				7518D29C1FF55B220008871F /* DVYAxisView.m in Sources */,
 				75701A841FDED4BB00374E9A /* CathecticModel.m in Sources */,
 				75701AB91FDED7AC00374E9A /* UIColor+Extension.m in Sources */,
@@ -1932,6 +1953,7 @@
 				75701B791FDEDD8700374E9A /* showtubiaoViewController.m in Sources */,
 				75701A791FDED32200374E9A /* tttttViewController.m in Sources */,
 				75701B711FDEDD7500374E9A /* JLChartPointSet.m in Sources */,
+				751B460F207D9C69002F087C /* MoreCommon.m in Sources */,
 				7532E9F82024720200FD6AF2 /* showYanZhengMaVC.m in Sources */,
 				75A3A8ED200A036D00493A34 /* YYFMDBManager.m in Sources */,
 				751B4603207C559A002F087C /* SubAppDelegate.m in Sources */,
@@ -2189,7 +2211,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U63U66XAN7;
+				DEVELOPMENT_TEAM = KM92J7XX6C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ArrQTool/ArrQTool.pch";
 				INFOPLIST_FILE = ArrQTool/Info.plist;
@@ -2207,7 +2229,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U63U66XAN7;
+				DEVELOPMENT_TEAM = KM92J7XX6C;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ArrQTool/ArrQTool.pch";
 				INFOPLIST_FILE = ArrQTool/Info.plist;

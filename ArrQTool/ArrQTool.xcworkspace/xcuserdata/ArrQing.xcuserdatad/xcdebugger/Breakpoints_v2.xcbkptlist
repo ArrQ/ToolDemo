@@ -494,7 +494,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "105"
             endingLineNumber = "105"
-            landmarkName = "-getKvo"
+            landmarkName = "-getBtn:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -510,8 +510,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "103"
             endingLineNumber = "103"
-            landmarkName = "showMyKVOVC"
-            landmarkType = "3">
+            landmarkName = "-getBtn:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

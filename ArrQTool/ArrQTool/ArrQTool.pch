@@ -25,6 +25,7 @@
 #import "Header.h"
 #import "ColorWithOther.h"
 #import "XSInfoView.h"
+#import "MoreCommonHeader.h"
 
 
 #endif /* ArrQTool_pch */
